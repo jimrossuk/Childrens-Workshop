@@ -17,7 +17,7 @@ if( have_rows('all_staff') ):
        </h3>
        <div class="flexbox">
             <img class= '.sm-img img-pad' src= "<?php the_sub_field('staff_photo'); ?>" >
-            <p>This is a test</p>
+       
             <p class="staff_profile "> <?php the_sub_field('profile');?> </p>
         </div>
        
