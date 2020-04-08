@@ -13,10 +13,11 @@ if( have_rows('all_staff') ):
         // display a sub field value
         ?>
        <h1 class="staff_name">  <?php the_sub_field('staff_member_name'); ?> </h1>
-       <h3 class= "job_titles ">   <?php the_sub_field('job_title'); ?>  </h3>
+       <h3 class= "job_titles ">   <?php the_sub_field('job_title'); ?>  
+       </h3>
        <div class="flexbox">
             <img class= '.sm-img img-pad' src= "<?php the_sub_field('staff_photo'); ?>" >
-            
+            <p>This is a test</p>
             <p class="staff_profile "> <?php the_sub_field('profile');?> </p>
         </div>
        
