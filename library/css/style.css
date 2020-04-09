@@ -1542,6 +1542,7 @@ and more scalable.
   margin: 0;
   display: block;
   text-align: center;
+  align-content: center;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
