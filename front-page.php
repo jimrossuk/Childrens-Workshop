@@ -18,14 +18,14 @@ get_header();
 <?php 
 $link = get_field('ofsted');
 if( $link ): ?>
-    <a class="button ft-page" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
+    <a class="button ft-page btn btn-primary" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
 <?php endif; ?>
 
 <div>
     <?php 
     $link = get_field('charity_link');
     if( $link ): ?>
-        <a class="button ft-page" href="<?php echo esc_url( $link ); ?>">Charity information</a>
+        <a class="button ft-page btn btn-secondary" href="<?php echo esc_url( $link ); ?>">Charity information</a>
     <?php endif; ?>
 </div>
 
