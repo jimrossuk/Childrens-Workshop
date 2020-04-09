@@ -25,7 +25,7 @@ if( $link ): ?>
     <?php 
     $link = get_field('charity_link');
     if( $link ): ?>
-        <a class="button ft-page btn btn-secondary" href="<?php echo esc_url( $link ); ?>">Charity information</a>
+        <a class="button ft-page btn btn-primary" href="<?php echo esc_url( $link ); ?>">Charity information</a>
     <?php endif; ?>
 </div>
 
