@@ -3,7 +3,7 @@
 get_header();
 
     ?>
-       
+       <img src= " <?php the_field('holiday_photo') ; ?> ">
        <h2 class="text-center"> <?php the_field('holiday_club_intro'); ?> </h2>
         <h3 class="text-center"> <?php the_field('holiday_club_content'); ?>  </h3>
         <div>
