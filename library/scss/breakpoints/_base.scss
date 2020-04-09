@@ -208,6 +208,7 @@ HEADER STYLES
 
 #logo {
 	margin: 0.75em 0;
+	text-align: center;
 
 	a {
 		color: $white;
@@ -229,6 +230,8 @@ and more scalable.
 .nav {
 	border-bottom: 0;
 	margin: 0;
+	display: block;
+	text-align: center;
 
 	li {
 		a {

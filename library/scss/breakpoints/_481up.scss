@@ -32,6 +32,8 @@ NAVIGATION STYLES
 /* .menu is clearfixed inside mixins.scss */
 .menu {
 	ul {
+		display: grid;
+		text-align: center;
 		li {
 			a {
 				/*

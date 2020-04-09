@@ -1521,6 +1521,7 @@ HEADER STYLES
 
 #logo {
   margin: 0.75em 0;
+  text-align: center;
 }
 #logo a {
   color: #fff;
@@ -1539,6 +1540,8 @@ and more scalable.
 .nav {
   border-bottom: 0;
   margin: 0;
+  display: block;
+  text-align: center;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
@@ -2016,6 +2019,8 @@ tweeners.
     /* end .menu ul */
   }
   .menu ul {
+    display: grid;
+    text-align: center;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
@@ -2075,11 +2080,6 @@ This is the average viewing window. So Desktops, Laptops, and
 in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
-@media only screen and (min-width: 610px) {
-  body {
-    background: goldenrod;
-  }
-}
 @media only screen and (min-width: 768px) {
   /******************************************************************
   Site Name:

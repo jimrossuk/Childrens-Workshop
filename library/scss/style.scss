@@ -86,10 +86,10 @@ in general anyone not viewing on a mobile device. Here's where
 you can add resource intensive styles.
 *********************/
 
-@media only screen and (min-width: 610px) {
-  // styles in 768up.scss
-  @import "breakpoints/610up";
-} // end of media query
+// @media only screen and (min-width: 610px) and (max-width: 767px) {
+//   // styles in 768up.scss
+//   @import "breakpoints/610up";
+// } // end of media query
 
 @media only screen and (min-width: 768px) {
   // styles in 768up.scss
