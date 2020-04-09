@@ -55,6 +55,6 @@ temp/
 .svn
 
 *.codekit
-*.scssc
+ *.scssc
 
 /vendor/

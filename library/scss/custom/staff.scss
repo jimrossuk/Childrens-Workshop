@@ -1,0 +1,32 @@
+.flexbox {
+    display: flex;
+}
+
+.staff_name {
+    color: red;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.job_titles {
+    text-align: center;
+    color: firebrick;
+    font-size: 1.2rem;
+}
+
+.staff_profile {
+    color: black;
+    margin: 2rem;
+    padding: 0.4rem;
+
+    display: inline;
+    text-align: left;
+    vertical-align: auto;
+}
+
+.img-pad {
+    padding: 0.2rem;
+    padding-left: 2rem;
+    margin: 0.2rem;
+}
