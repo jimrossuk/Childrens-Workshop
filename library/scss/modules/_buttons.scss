@@ -41,7 +41,8 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   @include transition(background-color 0.14s ease-in-out);
 
   // hovering on the btn
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     color: $white;
     text-decoration: none;
     outline: none;
@@ -51,7 +52,6 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   &:active {
     top: 1px; // adds a tiny hop to the click
   } // end active
-
 } // end .button
 
 /*
@@ -71,5 +71,9 @@ and it will create a button dependant on those variables.
   &:active {
     background-color: darken($blue, 5%);
   } // end active
-
 } // end blue button
+a.btn.btn-lg.btn-primary {
+  display: center;
+  border-radius: 0;
+  margin-top: 1px;
+}
