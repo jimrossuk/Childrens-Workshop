@@ -1036,7 +1036,7 @@ You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
 .blue-btn, #submit, .comment-reply-link {
-  background-color: #2980b9;
+  background-color: #d2e7d7;
 }
 .blue-btn:hover, #submit:hover, .comment-reply-link:hover, .blue-btn:focus, #submit:focus, .comment-reply-link:focus {
   background-color: #2574a8;
@@ -1046,9 +1046,16 @@ and it will create a button dependant on those variables.
 }
 
 a.btn.btn-lg.btn-primary {
-  display: center;
+  align-items: center;
   border-radius: 0;
-  margin-top: 1px;
+}
+
+.btn-color {
+  background-color: #d2e7d7;
+}
+
+:visited {
+  color: white;
 }
 
 /******************************************************************
@@ -1374,8 +1381,8 @@ body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
-  color: #5c6b80;
-  background-color: #eaedf2;
+  color: #23262b;
+  background-color: #ebece7;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1974,7 +1981,7 @@ FOOTER STYLES
 *********************/
 .footer {
   clear: both;
-  background-color: #323944;
+  background-color: #64b3bb;
   color: #f8f9fa;
 }
 
@@ -2409,7 +2416,7 @@ nav {
   }
 }
 .header {
-  background: purple;
+  background: #64b3bb;
 }
 
 h1 {
@@ -2418,7 +2425,7 @@ h1 {
 }
 
 #logo a {
-  color: #d11ae5;
+  color: #efe89b;
 }
 
 img {

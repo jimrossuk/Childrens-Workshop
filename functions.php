@@ -19,6 +19,52 @@ LAUNCH BONES
 Let's get everything up and running.
 *********************/
 
+if( function_exists('acf_add_options_page') ) {
+	
+	acf_add_options_page();
+	
+	acf_add_options_sub_page('Contact');
+	acf_add_options_sub_page('Fees');
+
+}
+
+// if( function_exists('acf_add_options_page') ) {
+
+//   // acf_add_options_page();
+//    //acf_add_options_sub_page('Email');
+//   //  acf_add_options_sub_page('Fees');
+
+	
+//   acf_add_options_page(array(
+// 		'page_title' 	=> 'Charity Contact',
+// 		'menu_title'	=> 'Charity Contact',
+// 		'menu_slug' 	=> 'theme-options',
+//     'capability'	=> 'edit_posts',
+//     'parent_slug' => '',
+//     'positon'   => false,
+//     'icon_url'  => false,
+// 		'redirect'		=> false
+//   ));
+
+// }
+
+// if( function_exists('acf_add_options_page') ) {
+
+//     acf_add_options_page(array(
+//       'page_title' 	=> 'Fees',
+//       'menu_title'	=> 'Fees',
+//       'menu_slug' 	=> 'theme-options',
+//       'capability'	=> 'edit_posts',
+//       'parent_slug' => '',
+//       'positon'   => false,
+//       'icon_url'  => false,
+//       'redirect'  => false
+      
+//     ));
+
+// }
+
+
 function bones_ahoy() {
 
   //Allow editor style.
@@ -245,13 +291,6 @@ function bones_fonts() {
 add_action('wp_enqueue_scripts', 'bones_fonts');
 
 // Adding an options page!
-if( function_exists('acf_add_options_page') ) {
-	
-  acf_add_options_page();
-  acf_add_options_page('Fees');
-	
-}
-
 
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

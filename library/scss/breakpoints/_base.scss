@@ -19,8 +19,8 @@ body {
 	font-family: $lato;
 	font-size: 100%;
 	line-height: 1.5;
-	color: $text-color;
-	background-color: $gray;
+	color: $play-black;
+	background-color: $background-colour;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -945,7 +945,7 @@ FOOTER STYLES
 
 .footer {
 	clear: both;
-	background-color: $black;
+	background-color: $fun-green;
 	color: $light-gray;
 }
 
