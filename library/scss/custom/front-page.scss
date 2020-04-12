@@ -16,3 +16,28 @@
 .flexbox {
     display: flex;
 }
+
+.fp-box {
+    // display: inline;
+
+    margin: auto;
+    padding-right: 1.1rem;
+    padding: 2rem;
+    text-align: left;
+}
+
+.flex {
+    display: flex;
+}
+
+.p-style {
+    margin: 0;
+}
+
+.lightgreen {
+    background: $light-green;
+}
+
+.btm-margin {
+    margin-bottom: 2rem;
+}

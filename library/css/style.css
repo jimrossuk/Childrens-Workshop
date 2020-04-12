@@ -1058,6 +1058,11 @@ a.btn.btn-lg.btn-primary {
   color: white;
 }
 
+.btn.btn-outline-success.pad {
+  padding: 3rem;
+  background: red;
+}
+
 /******************************************************************
 Site Name:
 Author:
@@ -2481,6 +2486,29 @@ img {
 
 .flexbox {
   display: flex;
+}
+
+.fp-box {
+  margin: auto;
+  padding-right: 1.1rem;
+  padding: 2rem;
+  text-align: left;
+}
+
+.flex {
+  display: flex;
+}
+
+.p-style {
+  margin: 0;
+}
+
+.lightgreen {
+  background: #d2e7d7;
+}
+
+.btm-margin {
+  margin-bottom: 2rem;
 }
 
 .intro {
