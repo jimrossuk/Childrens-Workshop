@@ -2000,6 +2000,10 @@ FOOTER STYLES
 	view.
 	*/
 /* end .footer-links */
+.block {
+  display: block;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2237,7 +2241,7 @@ you can add resource intensive styles.
   /* recent-comments widget */
   /* search widget */
   /* text widget */
-  .flexy {
+  .block {
     display: flex;
   }
 

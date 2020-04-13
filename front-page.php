@@ -45,7 +45,7 @@ get_header();
 
     <div class="flexbox container">
             <h1 class="h1 fp-graph">Clubs</h1>
-            <div class="row">
+            <div class="row flexy block">
                 <div class="col">
 
                     <h2 class="">Afterschool</h2>
@@ -62,6 +62,12 @@ get_header();
             </div>       
           
         <?php
+            $link = get_field('after_school_booking_link');
+        if( $link ): ?>
+            <button class="btn btn-outline-secondary " href="<?php echo esc_url( $link ); ?>">Book For After School Club</button>
+        <?php endif; ?>
+        <?php
+        // MUST CHANGE THE LINK
             $link = get_field('ipal_link');
         if( $link ): ?>
             <button class="btn btn-outline-primary " href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>

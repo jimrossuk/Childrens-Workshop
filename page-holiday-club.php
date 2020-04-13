@@ -16,9 +16,8 @@ get_header();
             <a class="button btn " href="<?php echo esc_url( $link ); ?>">Book Here</a>
         <?php endif; ?>
 
-        <h3 class="text-center"> £<?php the_field('fee_per_child'); ?>   Fee per Child </h3>
-        <h3 class="text-center"> £<?php the_field('yearly_fee'); ?>    Yearly fee </h3>
-
+        <h3 class="text-center"> £<?php the_field('holiday_club_daily_fee','options'); ?>   Fee per Child </h3>
+        <h3 class="text-center"> £<?php the_field('registration','options'); ?>    Yearly fee </h3>
 
 
     <?php    
