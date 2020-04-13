@@ -1444,7 +1444,7 @@ LINK STYLES
 *********************/
 a,
 a:visited {
-  color: #f01d4f;
+  color: firebrick;
   /* on hover */
   /* on click */
   /* mobile tap color */
@@ -1452,7 +1452,7 @@ a:visited {
 a:hover, a:focus,
 a:visited:hover,
 a:visited:focus {
-  color: #d10e3c;
+  color: #8b1b1b;
 }
 a:link,
 a:visited:link {

@@ -43,7 +43,7 @@ get_header();
 </div>
 
 
-    <div class="flexbox container">
+    <div class="flexbox container mb-2">
             <h1 class="h1 fp-graph">Clubs</h1>
             <div class="row flexy block">
                 <div class="col">
@@ -60,32 +60,33 @@ get_header();
                 </div>
                 
             </div>       
-          
-        <?php
+          <div class="block ">
+              <?php
             $link = get_field('after_school_booking_link');
-        if( $link ): ?>
-            <button class="btn btn-outline-secondary " href="<?php echo esc_url( $link ); ?>">Book For After School Club</button>
-        <?php endif; ?>
-        <?php
+            if( $link ): ?>
+            <button class="btn btn-outline-secondary mx_auto " href="<?php echo esc_url( $link ); ?>">Book For After School Club</button>
+            <?php endif; ?>
+            <?php
         // MUST CHANGE THE LINK
-            $link = get_field('ipal_link');
-        if( $link ): ?>
-            <button class="btn btn-outline-primary " href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>
-        <?php endif; ?>
+        $link = get_field('ipal_link');
+        if( $link ): ?> 
+            <button class="btn btn-outline-primary mx_auto" href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>
+            <?php endif; ?>
+        </div>
     </div>  
             <!-- end of Flexbox -->
 
         <?php 
 $link = get_field('ofsted');
 if( $link ): ?>
-    <a class="btn btn-color btn-lg btn-block " href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
+    <a class="btn btn-color btn-lg btn-block  mb-1" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
 <?php endif; ?>
 
 <div>
     <?php 
     $link = get_field('charity_link');
     if( $link ): ?>
-        <a class="btn btn-lg btn-color btn-block" href="<?php echo esc_url( $link ); ?>">Charity information</a>
+        <a class="btn btn-color btn-lg btn-block" href="<?php echo esc_url( $link ); ?>">Charity information</a>
     <?php endif; ?>
 </div>
 
