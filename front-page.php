@@ -28,8 +28,8 @@ get_header();
             <div class="mb-3">
                 <p class="mx-auto h2">Mobile:</p>
                 <a  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
-           
             </div>
+
                 <p class=" h2">Landline:</p>
                 <div class="btm-margin">
                 <a href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
@@ -37,32 +37,37 @@ get_header();
 
         </div>
     <a class="justify-content-center mx-auto" href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
-    <img class="img-fluid container-sm btm-margin " src = " <?php the_field('map'); ?> ">        </a>
+    <img class="img-fluid container-sm btm-margin " style= min-width:100%; src = " <?php the_field('map'); ?> ">        </a>
     </div>   
+
 </div>
 
-    
-<div>
-    <h1 class="h2 fp-graph">Clubs</h1>
-<div class="flexbox">
-    <div class="fp-boxs ">
-        
-        <h2 class="mx">Afterschool</h2>
-        
-        <p > <?php the_field('after_school_description'); ?> </p>
-        <h2>Holiday</h2>
-        <p>  <?php the_field('holiday_club_description'); ?> </p>
-    </div>
 
-</div>       
-<?php
-       $link = get_field('ipal_link');
-if( $link ): ?>
-    <button class="btn btn-outline-success pad" href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>
-<?php endif; ?>
+    <div class="flexbox container">
+            <h1 class="h1 fp-graph">Clubs</h1>
+            <div class="row">
+                <div class="col">
 
+                    <h2 class="">Afterschool</h2>
+                    
+                    <p > <?php the_field('after_school_description'); ?> </p>
+                </div>
+                
+                <div class="col">
 
-    </div>
+                    <h2>Holiday</h2>
+                    <p>  <?php the_field('holiday_club_description'); ?> </p>
+                </div>
+                
+            </div>       
+          
+        <?php
+            $link = get_field('ipal_link');
+        if( $link ): ?>
+            <button class="btn btn-outline-primary " href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>
+        <?php endif; ?>
+    </div>  
+            <!-- end of Flexbox -->
 
         <?php 
 $link = get_field('ofsted');
@@ -77,10 +82,6 @@ if( $link ): ?>
         <a class="btn btn-lg btn-color btn-block" href="<?php echo esc_url( $link ); ?>">Charity information</a>
     <?php endif; ?>
 </div>
-
-
-
-
 
 <?php
 
