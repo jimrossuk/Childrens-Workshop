@@ -15,7 +15,7 @@ get_header();
 
 <div class=" lightgreen">
 
-    <h2 class="fp-graph">Location</h2>
+    <h2 class=" h1 fp-graph mb-n2">Location</h2>
     <div class="flexbox flexy">
         
         <div class="fp-box">
@@ -45,11 +45,11 @@ get_header();
 <div>
     <h1 class="h2 fp-graph">Clubs</h1>
 <div class="flexbox">
-    <div class="fp-box">
+    <div class="fp-boxs ">
         
-        <h2>Afterschool</h2>
+        <h2 class="mx">Afterschool</h2>
         
-        <p>  <?php the_field('after_school_description'); ?> </p>
+        <p > <?php the_field('after_school_description'); ?> </p>
         <h2>Holiday</h2>
         <p>  <?php the_field('holiday_club_description'); ?> </p>
     </div>

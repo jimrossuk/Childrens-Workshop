@@ -14,9 +14,8 @@
 }
 
 .fp-box {
-    border: 2px red solid;
-    padding-right: 1.1rem;
-    padding: 2rem;
+    //padding-right: 1.1rem;
+    padding: 1em 0 2rem 0;
     text-align: center;
 }
 
@@ -31,9 +30,3 @@
 .lightgreen {
     background: $light-green;
 }
-
-.btm-margin {
-    margin-bottom: 2rem;
-}
-
-// @media
