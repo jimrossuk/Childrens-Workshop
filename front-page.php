@@ -16,17 +16,17 @@ get_header();
 <div class=" lightgreen">
 
     <h2 class="fp-graph">Location</h2>
-    <div class="flex">
+    <div class="flexbox flexy">
         
         <div class="fp-box">
 
-            <div class="btm-margin">
-                <p class=" h2">Email:</p>
+            <div class="mb-3 ">
+                <p class="mx-auto h2">Email:</p>
                 <a  href="<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
-            <div class="btm-margin">
-                <p class=" h2">Mobile:</p>
+            <div class="mb-3">
+                <p class="mx-auto h2">Mobile:</p>
                 <a  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
            
             </div>
@@ -36,15 +36,15 @@ get_header();
             </div>
 
         </div>
-    <a  href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
-    <img class="img-fluid container-sm btm-margin" src = " <?php the_field('map'); ?> ">        </a>
+    <a class="justify-content-center mx-auto" href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
+    <img class="img-fluid container-sm btm-margin " src = " <?php the_field('map'); ?> ">        </a>
     </div>   
 </div>
 
     
 <div>
     <h1 class="h2 fp-graph">Clubs</h1>
-<div class="flex">
+<div class="flexbox">
     <div class="fp-box">
         
         <h2>Afterschool</h2>

@@ -13,21 +13,15 @@
     align-items: end;
 }
 
-.flexbox {
-    display: flex;
-}
-
 .fp-box {
-    // display: inline;
-
-    margin: auto;
+    border: 2px red solid;
     padding-right: 1.1rem;
     padding: 2rem;
-    text-align: left;
+    text-align: center;
 }
 
-.flex {
-    display: flex;
+.flexy {
+    margin: auto;
 }
 
 .p-style {
@@ -41,3 +35,5 @@
 .btm-margin {
     margin-bottom: 2rem;
 }
+
+// @media

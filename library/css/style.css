@@ -2237,6 +2237,10 @@ you can add resource intensive styles.
   /* recent-comments widget */
   /* search widget */
   /* text widget */
+  .flexy {
+    display: flex;
+  }
+
   /*********************
   FOOTER STYLES
   *********************/
@@ -2437,10 +2441,6 @@ img {
   width: 100%;
 }
 
-.flexbox {
-  display: flex;
-}
-
 .staff_name {
   color: red;
   font-size: 2rem;
@@ -2484,19 +2484,15 @@ img {
   align-items: end;
 }
 
-.flexbox {
-  display: flex;
-}
-
 .fp-box {
-  margin: auto;
+  border: 2px red solid;
   padding-right: 1.1rem;
   padding: 2rem;
-  text-align: left;
+  text-align: center;
 }
 
-.flex {
-  display: flex;
+.flexy {
+  margin: auto;
 }
 
 .p-style {
