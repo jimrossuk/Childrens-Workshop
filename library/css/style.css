@@ -2476,6 +2476,7 @@ img {
 .fp-graph {
   padding: 0.9rem;
   text-align: center;
+  margin: 0 auto;
 }
 
 .fst-graph {

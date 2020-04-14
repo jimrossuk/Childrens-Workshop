@@ -61,17 +61,19 @@ get_header();
                 
             </div>       
           <div class="block ">
-              <?php
-            $link = get_field('after_school_booking_link');
+              <?php $link = get_field('after_school_booking_link');
             if( $link ): ?>
             <button class="btn btn-outline-secondary mx_auto " href="<?php echo esc_url( $link ); ?>">Book For After School Club</button>
             <?php endif; ?>
+
+         
             <?php
         // MUST CHANGE THE LINK
         $link = get_field('ipal_link');
         if( $link ): ?> 
             <button class="btn btn-outline-primary mx_auto" href="<?php echo esc_url( $link ); ?>">Book For Holiday Club</button>
             <?php endif; ?>
+
         </div>
     </div>  
             <!-- end of Flexbox -->
