@@ -367,3 +367,39 @@ mobile. Make sure to double check these!
 		}
 	}
 } /* end .footer-links */
+
+// makeing the images on Staff small
+.sm-img {
+	width: 30%;
+	height: auto;
+}
+
+.img-flexbox {
+	display: flex;
+}
+
+.staff_name {
+	background: $fun-yellow;
+	color: $fun-green;
+	font-size: 2.3rem;
+	text-align: center;
+	margin: 0px;
+	padding: 0.5rem;
+}
+
+.job_titles {
+	padding: 0.3rem;
+	background: $fun-yellow;
+	text-align: center;
+	color: $fun-green;
+	font-size: 1.8rem;
+	margin: 0;
+}
+
+.staff_profile {
+	color: black;
+	padding: 1.4rem;
+	text-align: right;
+	margin: 0;
+	// vertical-align: auto;
+}

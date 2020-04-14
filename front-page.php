@@ -7,7 +7,7 @@ get_header();
     <img src= " <?php the_field('main_image') ; ?> ">
     <div class="fp-graph">
         <p class="fst-graph">  <?php  the_field('front_page_into1'); ?>  </p>
-        <p> fun <?php  the_field('front_page_info2'); ?>  </p>
+        <p>  <?php  the_field('front_page_info2'); ?>  </p>
         <p>  <?php  the_field('front_page_info3'); ?>  </p>
         <h2>  <?php  the_field('front_page_info4'); ?>  </h2>
         <p>  <?php  the_field('front_page_info5'); ?>  </p>
