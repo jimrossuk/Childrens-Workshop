@@ -2,8 +2,6 @@
 
 get_header();
 
-
-
 // check if the repeater field has rows of data
 if( have_rows('all_staff') ):
 
@@ -19,12 +17,9 @@ if( have_rows('all_staff') ):
             <img class= '.sm-img img-pad' src= "<?php the_sub_field('staff_photo'); ?>" >
        
             <p class="staff_profile "> <?php the_sub_field('profile');?> </p>
-        </div>
-       
-      
+        </div> 
        <?php
-        
-        
+            
     endwhile;
 
 else :
