@@ -13,10 +13,14 @@ if( have_rows('all_staff') ):
        <h1 class="staff_name">  <?php the_sub_field('staff_member_name'); ?> </h1>
        <h3 class= "job_titles ">   <?php the_sub_field('job_title'); ?>  
        </h3>
-       <div class=" img-flexbox"> 
-            <img class= 'sm-img' src= "<?php the_sub_field('staff_photo'); ?>" >
-       
-            <p class="staff_profile"> <?php the_sub_field('profile');?> </p>
+
+       <div class="flex-container"> 
+          
+
+               <img class= "flex-item rounded" src= "<?php the_sub_field('staff_photo'); ?>" >
+               
+               <p class="info-container"> <?php the_sub_field('profile');?> </p>
+           
       </div> 
        <?php
             

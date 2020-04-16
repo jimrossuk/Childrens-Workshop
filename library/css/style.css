@@ -2062,10 +2062,6 @@ tweeners.
   /*********************
   POSTS & CONTENT STYLES
   *********************/
-  .sm-img {
-    width: 100%;
-  }
-
   /* entry content */
   .entry-content {
     /* at this larger size, we can start to align images */
@@ -2265,15 +2261,6 @@ you can add resource intensive styles.
     */
   }
   /* end .footer-links */
-  .sm-img {
-    width: 30%;
-    height: auto;
-  }
-
-  .img-flexbox {
-    display: flex;
-  }
-
   .staff_name {
     background: #efe89b;
     color: #64b3bb;
@@ -2284,7 +2271,7 @@ you can add resource intensive styles.
   }
 
   .job_titles {
-    padding: 0.3rem;
+    padding: 0.3rem 0.3rem 1rem 0.3rem;
     background: #efe89b;
     text-align: center;
     color: #64b3bb;
@@ -2295,8 +2282,27 @@ you can add resource intensive styles.
   .staff_profile {
     color: black;
     padding: 1.4rem;
-    text-align: right;
+    text-align: left;
     margin: 0;
+  }
+
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    width: 30%;
+  }
+
+  .info-container {
+    width: 70%;
+    font-size: 1.4rem;
   }
 }
 /*********************
@@ -2480,7 +2486,6 @@ h1 {
 
 img {
   width: 100%;
-  height: auto;
 }
 
 .staff_name {
@@ -2493,7 +2498,7 @@ img {
 }
 
 .job_titles {
-  padding: 0.8rem;
+  padding: 0.3rem;
   background: #efe89b;
   text-align: center;
   color: #64b3bb;
@@ -2504,6 +2509,7 @@ img {
 .staff_profile {
   color: black;
   padding: 1.4rem;
+  text-align: left;
   margin: 0;
 }
 

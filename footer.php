@@ -20,7 +20,7 @@
 						<div>
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
-					<a href="https://www.jimrossphoto.com" style="text-align: right"> Proudly made by Jim Ross <?php  the_field(''); ?>  </a>
+					<a href="https://www.jimrossphoto.com" style="text-align: right"> Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>
 						</div>
 
 				</div>

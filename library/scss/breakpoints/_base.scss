@@ -972,6 +972,23 @@ FOOTER STYLES
 	display: block;
 }
 
-// .img-flexbox {
+// .flex-container {
+// 	display: -webkit-flex;
 // 	display: flex;
+// 	-webkit-flex-direction: row;
+// 	flex-direction: row;
+// 	-webkit-align-items: center;
+// 	align-items: center;
+// 	flex-wrap: wrap;
+// }
+
+// .flex-item {
+// 	width: 30%;
+// 	border: 20%;
+// }
+
+// .info-container {
+// 	width: 70%;
+// 	padding: 3rem;
+// 	font-size: 1.4rem;
 // }
