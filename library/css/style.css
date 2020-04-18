@@ -2303,6 +2303,7 @@ you can add resource intensive styles.
   .info-container {
     width: 70%;
     font-size: 1.4rem;
+    padding: 0 2rem;
   }
 }
 /*********************
@@ -2546,6 +2547,14 @@ img {
   background: #d2e7d7;
 }
 
+.h1-style {
+  margin: -1rem;
+  padding: 2rem;
+  background: red;
+  color: pink;
+  text-align: center;
+}
+
 .intro {
   font-size: 1.7rem;
   text-align: center;
@@ -2553,6 +2562,20 @@ img {
 
 .pad {
   padding: 0.75rem;
+}
+
+.a {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background: red;
+}
+
+.b {
+  background: green;
+}
+
+.c {
+  background: blue;
 }
 
 /*# sourceMappingURL=style.css.map */

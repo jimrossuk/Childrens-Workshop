@@ -19,8 +19,8 @@
  * ( source: http://andylangton.co.uk/blog/development/get-viewport-size-width-and-height-javascript )
 */
 function updateViewportDimensions() {
-	var w=window,d=document,e=d.documentElement,g=d.getElementsByTagName('body')[0],x=w.innerWidth||e.clientWidth||g.clientWidth,y=w.innerHeight||e.clientHeight||g.clientHeight;
-	return { width:x,height:y };
+  var w = window, d = document, e = d.documentElement, g = d.getElementsByTagName('body')[0], x = w.innerWidth || e.clientWidth || g.clientWidth, y = w.innerHeight || e.clientHeight || g.clientHeight;
+  return { width: x, height: y };
 }
 // setting the viewport width
 var viewport = updateViewportDimensions();
@@ -32,25 +32,70 @@ var viewport = updateViewportDimensions();
  * ( source: http://stackoverflow.com/questions/2854407/javascript-jquery-window-resize-how-to-fire-after-the-resize-is-completed )
 */
 var waitForFinalEvent = (function () {
-	var timers = {};
-	return function (callback, ms, uniqueId) {
-		if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
-		if (timers[uniqueId]) { clearTimeout (timers[uniqueId]); }
-		timers[uniqueId] = setTimeout(callback, ms);
-	};
+  var timers = {};
+  return function (callback, ms, uniqueId) {
+    if (!uniqueId) { uniqueId = "Don't call this twice without a uniqueId"; }
+    if (timers[uniqueId]) { clearTimeout(timers[uniqueId]); }
+    timers[uniqueId] = setTimeout(callback, ms);
+  };
 })();
 
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
 var timeToWaitForLast = 100;
 
 
+
+let backgroundColor = $('minus-h1').css('background-color');
+
+$('minus-h1').css({
+  'background-color': 'red',
+  'padding': '2rem',
+});
+
+// console.log(frontPageAlert);
+
+// let divisibleBy2s = divisible => {
+
+//   //current % 2 === 0
+//   return divisible.filter(val => val % 2 === 0);///gotta create a funcing in the brackets.
+// };
+// console.log(
+//   divisibleBy2s([1, 4, 5, 66]))
+//   ;
+
+
+// if (typeof is_home === "undefined") var is_home = $('body').hasClass('home');
+
+
+// // When the window is resized, we perform this function
+// $(window).resize(function () {
+
+//   // if we're on the home page, we wait the set amount (in function above) then fire the function
+//   if (is_home) {
+//     waitForFinalEvent(function () {
+
+//       // update the viewport, in case the window size has changed
+//       viewport = updateViewportDimensions();
+
+//       // if we're above or equal to 768 fire this off
+//       if (viewport.width >= 768) {
+//         console.log('On home page and window sized to 768 width or more. jim ross rocks');
+//       } else {
+//         // otherwise, let's do this instead
+//         console.log('Not on home page, or window sized to less than 768.');
+//       }
+
+//     }, timeToWaitForLast, "your-function-identifier-string");
+//   }
+// });
+// 
+
 /*
  * Here's an example so you can see how we're using the above function
  *
  * This is commented out so it won't work, but you can copy it and
  * remove the comments.
- *
- *
+ 
  *
  * If we want to only do it on a certain page, we can setup checks so we do it
  * as efficient as possible.
@@ -98,17 +143,17 @@ function loadGravatars() {
   viewport = updateViewportDimensions();
   // if the viewport is tablet or larger, we load in the gravatars
   if (viewport.width >= 768) {
-  jQuery('.comment img[data-gravatar]').each(function(){
-    jQuery(this).attr('src',jQuery(this).attr('data-gravatar'));
-  });
-	}
+    jQuery('.comment img[data-gravatar]').each(function () {
+      jQuery(this).attr('src', jQuery(this).attr('data-gravatar'));
+    });
+  }
 } // end function
 
 
 /*
  * Put all your regular jQuery in here.
 */
-jQuery(document).ready(function($) {
+jQuery(document).ready(function ($) {
 
   /*
    * Let's fire off the gravatar function

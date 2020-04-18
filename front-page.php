@@ -2,9 +2,25 @@
 get_header();
 
 ?>
+<div role="alert">
 
+<?php
+if(get_field('big_alert'))
+{
+    echo '<h1 class="h1 h1-style ">' . get_field('big_alert') . '</h1>';
+    
+} 
 
-    <img class="img-fluid img" src= " <?php the_field('main_image') ; ?> ">
+if(get_field('alert_message'))
+{
+    echo '<p class=" h1-style ">' . get_field('alert_message') . '</p>';
+    
+}
+
+?>
+    <!-- <h1 class="h1 minus-h1"> <?php the_field('big_alert'); ?>   </h1> -->
+</div>
+<img class="img-fluid img" src= " <?php the_field('main_image') ; ?> ">
     <div class="fp-graph">
         <p class="fst-graph">  <?php  the_field('front_page_into1'); ?>  </p>
         <p>  <?php  the_field('front_page_info2'); ?>  </p>
@@ -21,18 +37,18 @@ get_header();
         <div class="fp-box">
 
             <div class="mb-3 ">
-                <p class="mx-auto h2">Email:</p>
-                <a  href="<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
+                <p class="mx-auto h3">Email:</p>
+                <a  class="h1" href="<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
             <div class="mb-3">
-                <p class="mx-auto h2">Mobile:</p>
-                <a  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
+                <p class="mx-auto 32">Mobile:</p>
+                <a class="h1"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
             </div>
 
-                <p class=" h2">Landline:</p>
+                <p class=" h3">Landline:</p>
                 <div class="btm-margin">
-                <a href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
+                <a class="h1"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
 
         </div>

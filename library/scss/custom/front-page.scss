@@ -31,3 +31,24 @@
 .lightgreen {
     background: $light-green;
 }
+
+.h1-style {
+    margin: -1rem;
+    padding: 2rem;
+    background: red;
+    color: pink;
+    text-align: center;
+}
+
+// .minus-h1::before {
+//     background: firebrick;
+//     padding: 3rem;
+// }
+
+// //
+
+// .minus-h1::after {
+//     padding: 3rem;
+//     background: gold;
+//     content: global-variable-exists($name: backgroundColor);
+// }
