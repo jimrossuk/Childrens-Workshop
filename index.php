@@ -1,11 +1,13 @@
 <?php get_header(); ?>
 
 
-			<div id="content">
+			<div id="content" class=" align-self-center">
 
-				<div id="inner-content" class="wrap cf">
-
-						<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+				<div id="inner-content "  class="wrap cf mx-auto ab123">
+							<!-- m-all t-2of3 d-5of7  ARe Classes i deleted from below -->
+						<main id="main" class=" cf" role="main" itemscope 
+						
+						itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 
 							<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -13,11 +15,11 @@
 
 								<header class="article-header">
 
-									<h1 class="h2 entry-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+									<h1 class="h2 entry-title text-center"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 
-									<p> <?php the_field('the_headline')  ?> </p>
+									<p class="text-center"> <?php the_field('the_headline')  ?> </p>
 
-									<p> <?php the_field('the_message')  ?> </p>
+									<p class="text-center"> <?php the_field('the_message')  ?> </p>
 
 
 									<?php 
@@ -28,8 +30,9 @@
 												<?php foreach( $images as $image ): ?>
 													<li class="xyz">
 														<a href="<?= $image['url']; ?>">
-															<img src="<?= $image['sizes']['medium']; ?>" alt="<?=$image['alt']; ?>" />
-														
+															<img src="<?= $image['sizes']['medium']; ?>" alt="<?=$image['alt']; ?>" />		
+																<p class="xxx"> <?= $image['caption']?> </p>
+													
 														</a>
 														
 													</li>
