@@ -19,20 +19,26 @@
 
 									<p> <?php the_field('the_message')  ?> </p>
 
+
 									<?php 
-										$images = get_field('news');
-										$size = 'full'; // (thumbnail, medium, large, full or custom size)
+										$images = get_field('picture');
+										
 										if( $images ): ?>
 											<ul>
-												<?php foreach( $images as $image_id ): ?>
-													<li>
-														<?php echo wp_get_attachment_image( $image_id, $size ); ?>
+												<?php foreach( $images as $image ): ?>
+													<li class="xyz">
+														<a href="<?= $image['url']; ?>">
+															<img src="<?= $image['sizes']['medium']; ?>" alt="<?=$image['alt']; ?>" />
+														
+														</a>
+														
 													</li>
 												<?php endforeach; ?>
 											</ul>
-									<?php endif; ?>
+										<?php endif; ?>
 
 
+								
 									<!-- <p class="byline entry-meta vcard">
                                                                         <?php printf( __( 'Posted', 'bonestheme' ).' %1$s %2$s',
                        								/* the time the post was published */
