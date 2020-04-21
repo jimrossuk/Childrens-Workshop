@@ -2164,7 +2164,8 @@ you can add resource intensive styles.
     margin-top: 0;
   }
   .nav li {
-    float: left;
+    text-align: center;
+    display: inline-block;
     position: relative;
     /*
     plan your menus and drop-downs wisely.

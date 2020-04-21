@@ -49,9 +49,10 @@ NAVIGATION STYLES
 		margin-top: 0;
 	}
 	li {
-		float: left;
+		text-align: center;
+		display: inline-block;
 		position: relative;
-
+		// nav is now centred!
 		a {
 			border-bottom: 0;
 
