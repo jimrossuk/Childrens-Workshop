@@ -25,8 +25,8 @@ get_header();
             
 
 
-        <h3 class="text-center"> £<?php the_field('holiday_club_daily_fee','options'); ?>   Fee per Child </h3>
-        <h3 class="text-center"> £<?php the_field('registration','options'); ?>    Yearly fee </h3>
+        <h3 class=""> £<?php the_field('holiday_club_daily_fee','options'); ?>   Fee per Child </h3>
+        <h3 class=""> £<?php the_field('registration','options'); ?>    Yearly fee </h3>
 
 
     <?php    

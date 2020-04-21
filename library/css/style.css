@@ -1365,13 +1365,6 @@ h2 {
   color: #64b3bb;
 }
 
-/* Highlight using list element */
-li.current_page_item {
-  background: #45959d;
-  border-radius: 8px;
-  color: black;
-}
-
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -1607,6 +1600,13 @@ and more scalable.
 .nav li ul.children li a {
   padding-left: 30px;
 }
+.nav li.current-menu-item a,
+.nav li.current_page_item a,
+.nav li.current_page_ancestor a {
+  background: #45959d;
+  border-radius: 8px;
+}
+
 /* end .nav */
 /*********************
 POSTS & CONTENT STYLES

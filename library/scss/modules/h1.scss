@@ -1,14 +1,3 @@
 h2 {
     color: $fun-green;
 }
-
-/* Highlight using list element */
-li.current_page_item {
-    background: darken($color: $fun-green, $amount: 12);
-    border-radius: 8px;
-
-    color: black;
-}
-// &::first-child {
-//     background-color: red;
-// }

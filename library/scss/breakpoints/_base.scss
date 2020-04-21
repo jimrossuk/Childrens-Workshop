@@ -297,6 +297,8 @@ and more scalable.
 	li.current_page_item,
 	li.current_page_ancestor {
 		a {
+			background: darken($color: $fun-green, $amount: 12);
+			border-radius: 8px;
 		}
 	} /* end current highlighters */
 } /* end .nav */
