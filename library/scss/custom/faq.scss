@@ -1,20 +1,24 @@
+.jimtest {
+    display: flex;
+    // flex-wrap: wrap;
+    background: $fun-yellow;
+}
 .a {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background: red;
+    // background: $fun-yellow;
+    border-radius: 3px;
+    display: block;
+    padding: 3rem;
+    margin: 2rem;
+    border: $fun-green 2px solid;
 }
 
 .b {
-    background: green;
+    // background: $fun-yellow;
+    text-align: center;
+    line-height: 1rem;
 }
 
 .c {
-    background: blue;
-}
-
-.upperC {
-    text-transform: uppercase;
-    font-size: 2rem;
-    background: $background-colour;
-    color: $highlight-red;
+    // background: $fun-yellow;
+    padding: 2rem;
 }

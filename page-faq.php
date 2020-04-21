@@ -11,18 +11,20 @@ if( have_rows('q_&_a') ):
     while ( have_rows('q_&_a') ) : the_row();
     ?> 
             <!-- <div class="col-sm-3"> -->
-                
-                <div class="a">
-                    
-                    <div class=" ">
-                        <!-- display a sub field value -->
+                <div class="jimtest">
+
+                    <div class="a">
                         
-                        <h2 class=" b    "> <?php the_sub_field('question'); ?> </h2>
-                        <h3 class="  c   "> <?php the_sub_field('answer'); ?>  </h3>
+                        <div class=" ">
+                            <!-- display a sub field value -->
+                            
+                            <h2 class=" b    "> <?php the_sub_field('question'); ?> </h2>
+                            <h3 class="  c   "> <?php the_sub_field('answer'); ?>  </h3>
+                        </div>
+                        
                     </div>
-                    
+                    <!-- </div > -->
                 </div>
-            <!-- </div > -->
     
         <?php    
 

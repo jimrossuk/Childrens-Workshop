@@ -4,3 +4,11 @@
 @import "front-page";
 @import "after-school";
 @import "faq";
+
+// This is for Index page
+.upperC {
+    text-transform: uppercase;
+    font-size: 2rem;
+    background: $background-colour;
+    color: $highlight-red;
+}
