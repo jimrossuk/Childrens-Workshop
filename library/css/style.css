@@ -1589,6 +1589,16 @@ and more scalable.
   keep this file as small as possible!
   */
 }
+.nav li a:hover, .nav li a:focus {
+  display: block;
+  list-style: none;
+  text-transform: uppercase;
+  border-bottom: none;
+  background-color: transparent;
+}
+.nav li a:a {
+  text-decoration: none;
+}
 .nav li ul.sub-menu li a,
 .nav li ul.children li a {
   padding-left: 30px;
@@ -2055,10 +2065,15 @@ tweeners.
     	*/
   }
   .menu ul li a {
+    text-decoration: none;
     /*
     	you can use hover styles here even though this size
     	has the possibility of being a mobile device.
     	*/
+  }
+  .menu ul li a:hover, .menu ul li a:focus {
+    background: #64b3bb;
+    padding: 1.1rem;
   }
   /* end .menu */
   /*********************
@@ -2165,7 +2180,6 @@ you can add resource intensive styles.
   }
   .nav li a:hover, .nav li a:focus {
     color: #fff;
-    text-decoration: underline;
   }
   .nav li ul.sub-menu,
 .nav li ul.children {
