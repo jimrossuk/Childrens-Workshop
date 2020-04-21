@@ -11,7 +11,7 @@ if( have_rows('q_&_a') ):
     while ( have_rows('q_&_a') ) : the_row();
     ?> 
             <!-- <div class="col-sm-3"> -->
-                <div class="jimtest">
+                <div class="flexandcolor">
 
                     <div class="a">
                         

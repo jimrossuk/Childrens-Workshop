@@ -1361,6 +1361,10 @@ select {
   background-position: 97.5% center;
 }
 
+h2 {
+  color: #64b3bb;
+}
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -2566,7 +2570,7 @@ img {
   padding: 0.75rem;
 }
 
-.jimtest {
+.flexandcolor {
   display: flex;
   background: #efe89b;
 }
@@ -2586,6 +2590,10 @@ img {
 
 .c {
   padding: 2rem;
+}
+
+.thing {
+  display: flex;
 }
 
 .upperC {

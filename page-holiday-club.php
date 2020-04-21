@@ -12,7 +12,7 @@ get_header();
         </div>
      <?php ?>
      
-    <div class="">
+    <div class="thing">
 
      
         <?php 
