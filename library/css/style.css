@@ -1365,6 +1365,13 @@ h2 {
   color: #64b3bb;
 }
 
+/* Highlight using list element */
+li.current_page_item {
+  background: #45959d;
+  border-radius: 8px;
+  color: black;
+}
+
 /*********************
 BASE (MOBILE) SIZE
 This are the mobile styles. It's what people see on their phones. If
@@ -1592,9 +1599,6 @@ and more scalable.
 .nav li a:hover, .nav li a:focus {
   display: block;
   list-style: none;
-  text-transform: uppercase;
-  border-bottom: none;
-  background-color: transparent;
 }
 .nav li a:a {
   text-decoration: none;
@@ -2073,7 +2077,6 @@ tweeners.
   }
   .menu ul li a:hover, .menu ul li a:focus {
     background: #64b3bb;
-    padding: 1.1rem;
   }
   /* end .menu */
   /*********************

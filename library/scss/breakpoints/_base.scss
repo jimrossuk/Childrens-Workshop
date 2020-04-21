@@ -249,15 +249,7 @@ and more scalable.
 			&:hover,
 			&:focus {
 				display: block;
-				// background: $fun-green;
 				list-style: none;
-				// font-size: 1.2rem;
-				// padding-bottom: 1rem;
-				text-transform: uppercase;
-				// margin-bottom: 0;
-				// text-decoration: none;
-				border-bottom: none;
-				background-color: transparent;
 			}
 			&:a {
 				text-decoration: none;
@@ -323,7 +315,7 @@ POSTS & CONTENT STYLES
 	margin-bottom: 1.5em;
 	border: 1.5px solid $fun-green;
 
-	// I did change and commented out borders and colours.
+	// Jim Ross did change and commented out borders and colours.
 	// Added border colour too
 	header {
 		// border-bottom: 1px solid $light-gray;
