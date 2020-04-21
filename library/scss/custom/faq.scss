@@ -12,10 +12,8 @@
     background: blue;
 }
 
-.xyz {
-    padding: 2px;
-}
-
-.xxx {
-    font-size: 10em;
+.upperC {
+    text-transform: uppercase;
+    font-size: 2rem;
+    background: $background-colour;
 }

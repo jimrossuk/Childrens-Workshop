@@ -15,9 +15,13 @@
 
 								<header class="article-header">
 
-									<h1 class="h2 entry-title text-center"><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+								<h1 class="upperC   text-center">
+									<?php the_title(); ?>
+								</h1>
 
-									<p class="text-center"> <?php the_field('the_headline')  ?> </p>
+									<!-- <h1 class="h2 entry-title text-center "><a class=" upperC"href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1> -->
+
+									<p class="text-center "> <?php the_field('the_headline')  ?> </p>
 
 									<p class="text-center"> <?php the_field('the_message')  ?> </p>
 
@@ -31,7 +35,8 @@
 													<li class="xyz">
 														<a href="<?= $image['url']; ?>">
 															<img src="<?= $image['sizes']['medium']; ?>" alt="<?=$image['alt']; ?>" />		
-																<p class="xxx"> <?= $image['caption']?> </p>
+																<!-- Notsure A Caption is needed 
+																	<p class="xxx"> <?= $image['caption']?> </p> -->
 													
 														</a>
 														

@@ -1598,18 +1598,16 @@ POSTS & CONTENT STYLES
 }
 
 .hentry {
-  background-color: #fff;
+  background-color: #ebece7;
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1px solid #ccc;
+  border: 1px solid #323944;
 }
 .hentry header {
-  border-bottom: 1px solid #f8f9fa;
   padding: 1.5em;
 }
 .hentry footer {
   padding: 1.5em;
-  border-top: 1px solid #f8f9fa;
 }
 .hentry footer p {
   margin: 0;
@@ -2489,6 +2487,10 @@ img {
   width: 100%;
 }
 
+.xyz {
+  padding: 2px;
+}
+
 .staff_name {
   background: #efe89b;
   color: #64b3bb;
@@ -2578,12 +2580,10 @@ img {
   background: blue;
 }
 
-.xyz {
-  padding: 2px;
-}
-
-.xxx {
-  font-size: 10em;
+.upperC {
+  text-transform: uppercase;
+  font-size: 2rem;
+  background: #ebece7;
 }
 
 /*# sourceMappingURL=style.css.map */

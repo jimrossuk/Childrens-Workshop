@@ -305,19 +305,20 @@ POSTS & CONTENT STYLES
 }
 
 .hentry {
-	background-color: $white;
+	background-color: $background-colour;
 	border-radius: 3px;
 	margin-bottom: 1.5em;
-	border: 1px solid $border-color;
+	border: 1px solid $black;
 
+	// I did change and commented out borders and colours.
 	header {
-		border-bottom: 1px solid $light-gray;
+		// border-bottom: 1px solid $light-gray;
 		padding: 1.5em;
 	}
 
 	footer {
 		padding: 1.5em;
-		border-top: 1px solid $light-gray;
+		// border-top: 1px solid $light-gray;
 
 		p {
 			margin: 0;
