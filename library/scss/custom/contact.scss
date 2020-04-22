@@ -1,0 +1,27 @@
+.jimross {
+    display: flex;
+    justify-content: center;
+}
+
+.wpcf7 {
+    // display: inline;
+    // padding: 3rem;
+}
+
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea {
+    background-color: $fun-green;
+
+    color: #000;
+    width: 70%;
+}
+.wpcf7 textarea {
+    width: 100%;
+}
+
+.wpcf7-submit {
+    background: $fun-green;
+    border-radius: 3px;
+    color: white;
+}
