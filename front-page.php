@@ -38,7 +38,7 @@ if(get_field('alert_message'))
 
             <div class="mb-3 ">
                 <p class="mx-auto h3">Email:</p>
-                <a  class="h1" href="<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
+                <a  class="h1" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
             <div class="mb-3">
