@@ -2029,7 +2029,7 @@ FOOTER STYLES
   display: block;
 }
 
-.jimtest {
+.contactsize {
   font-size: 1.25rem;
 }
 
@@ -2128,8 +2128,8 @@ tweeners.
   do they need tweaking?
   */
   /* end .footer-links */
-  .jimtest {
-    font-size: 3rem;
+  .contactsize {
+    font-size: 2rem;
   }
 }
 /*********************
@@ -2340,6 +2340,10 @@ you can add resource intensive styles.
     width: 70%;
     font-size: 1.4rem;
     padding: 0 2rem;
+  }
+
+  .contactsize {
+    font-size: 3.2rem;
   }
 }
 /*********************

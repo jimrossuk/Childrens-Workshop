@@ -38,17 +38,17 @@ if(get_field('alert_message'))
 
             <div class="mb-3 ">
                 <p class="mx-auto  h3">Email:</p>
-                <a  class="h1 jimtest" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
+                <a  class="h1 contactsize" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
             <div class="mb-3">
                 <p class="mx-auto   32">Mobile:</p>
-                <a class="h1 jimtest"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
+                <a class="h1 contactsize"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
             </div>
 
                 <p class="   h3">Landline:</p>
                 <div class="btm-margin">
-                <a class="h1 jimtest"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
+                <a class="h1 contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
 
         </div>
