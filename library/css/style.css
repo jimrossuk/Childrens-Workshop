@@ -2029,6 +2029,10 @@ FOOTER STYLES
   display: block;
 }
 
+.jimtest {
+  font-size: 1.25rem;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2124,6 +2128,9 @@ tweeners.
   do they need tweaking?
   */
   /* end .footer-links */
+  .jimtest {
+    font-size: 3rem;
+  }
 }
 /*********************
 TABLET & SMALLER LAPTOPS
