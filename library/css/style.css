@@ -1568,11 +1568,14 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+.nav.top-nav.cf, .nav.top-nav.comment-respond {
+  display: none;
+}
+
 .nav {
   border-bottom: 0;
   margin: 0;
-  display: block;
-  text-align: center;
+  padding-bottom: 1.3rem;
   /* end .menu li */
   /* highlight current page */
   /* end current highlighters */
@@ -1587,7 +1590,6 @@ and more scalable.
   */
 }
 .nav li a {
-  display: block;
   color: #fff;
   text-decoration: none;
   padding: 0.75em;
@@ -1599,7 +1601,6 @@ and more scalable.
   */
 }
 .nav li a:hover, .nav li a:focus {
-  display: block;
   list-style: none;
 }
 .nav li a:a {
@@ -2033,6 +2034,49 @@ FOOTER STYLES
   font-size: 1.25rem;
 }
 
+@media screen and (max-width: 486px) {
+  li {
+    text-align: center;
+    padding: 5px;
+    list-style: none;
+  }
+
+  .toggle-nav {
+    background: #387a81;
+    padding: 15px;
+    margin: 15px;
+    display: inline-block !important;
+    color: #8d7f68;
+    color: #fff;
+    transition: color linear 0.15s;
+  }
+
+  .toggle-nav:hover,
+.toggle-nav.active {
+    text-decoration: none;
+    color: #8d7f68;
+  }
+
+  .menu.main {
+    display: inline-block;
+    position: relative;
+    background: #fff;
+  }
+
+  .menu.main ul {
+    display: none;
+    position: absolute;
+    top: 80%;
+    left: 0px;
+    padding-left: 15px;
+    background: #fff;
+  }
+
+  .menu.main li {
+    display: block;
+    float: none;
+  }
+}
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2065,18 +2109,21 @@ tweeners.
   /*********************
   NAVIGATION STYLES
   *********************/
+  .toggle-nav {
+    display: none !important;
+  }
+
   /* .menu is clearfixed inside mixins.scss */
   .menu {
     /* end .menu ul */
   }
   .menu ul {
-    display: grid;
-    text-align: center;
     /* end .menu ul li */
     /* highlight current page */
     /* end current highlighters */
   }
   .menu ul li {
+    display: inline;
     /*
     	plan your menus and drop-downs wisely.
     	*/

@@ -162,4 +162,15 @@ jQuery(document).ready(function ($) {
   loadGravatars();
 
 
+
+
+  jQuery(document).ready(function () {
+    jQuery('.toggle-nav').click(function (e) {
+      jQuery('.nav .top-nav .cf').slideToggle(500);
+
+      e.preventDefault();
+    });
+
+  });
+
 }); /* end of as page load scripts */
