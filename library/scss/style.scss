@@ -81,6 +81,9 @@ tweeners.
   @import "breakpoints/481up";
 } // end of media query
 
+@media only screen and (min-width: 608px) {
+  @import "breakpoints/609up";
+}
 /*********************
 TABLET & SMALLER LAPTOPS
 This is the average viewing window. So Desktops, Laptops, and

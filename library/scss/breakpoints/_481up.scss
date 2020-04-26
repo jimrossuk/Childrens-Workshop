@@ -25,78 +25,117 @@ them in here, they won't work.
 /*********************
 NAVIGATION STYLES
 *********************/
-.nav.top-nav.cf {
-	display: block;
-}
+//
 
-// hamburger jimross
-.toggle-nav {
-	display: none !important;
+.nav.top-nav.cf {
+	display: none;
 }
 
 .nav {
-	li {
-		// making mobile
-		// background: red;
-	}
-}
-
-/* .menu is clearfixed inside mixins.scss */
-.menu {
+	border: 0;
 	ul {
-		// display: grid;
-		// text-align: center;
-		li {
-			display: inline;
-			a {
-				text-decoration: none;
-
-				/*
-					you can use hover styles here even though this size
-					has the possibility of being a mobile device.
-					*/
-				&:hover,
-				&:focus {
-					background: $fun-green;
-					// padding: 1.1rem;
-				}
-			}
-
-			&:first-child {
-			}
-			&:last-child {
-			}
+		background: $black;
+		margin-top: 0;
+	}
+	li {
+		text-align: center;
+		display: block;
+		position: relative;
+		padding: 1.3%;
+		// // making mobile
+		// background: lime;
+		// nav is now centred!
+		a {
+			border-bottom: 0;
 
 			/*
-				plan your menus and drop-downs wisely.
-				*/
-			ul.sub-menu,
-			ul.children {
-				li {
-					a {
-						&:hover,
-						&:focus {
-						}
-						&:link {
-						}
+			you can use hover styles here even though this size
+			has the possibility of being a mobile device.
+			*/
+			&:hover,
+			&:focus {
+				color: $white;
+				// text-decoration: underline;
+			}
+		}
+
+		&:first-child {
+		}
+		&:last-child {
+		}
+
+		/*
+		plan your menus and drop-downs wisely.
+		*/
+		ul.sub-menu,
+		ul.children {
+			margin-top: 0;
+			border: 1px solid #ccc;
+			border-top: 0;
+			position: absolute;
+			visibility: hidden;
+			z-index: 8999;
+
+			li {
+				a {
+					padding-left: 10px;
+					border-right: 0;
+					display: block;
+					width: 180px;
+					border-bottom: 1px solid #ccc;
+
+					&:hover,
+					&:focus {
 					}
-					&:first-child {
-					}
-					&:last-child {
+
+					&:link {
 					}
 				}
-			}
-		} /* end .menu ul li */
 
-		/* highlight current page */
-		li.current-menu-item,
-		li.current_page_item,
-		li.current_page_ancestor {
-			a {
+				&:first-child {
+				}
+
+				&:last-child {
+					a {
+						border-bottom: 0;
+					}
+				}
+
+				/*
+				if you need to go deeper, go nuts
+				just remember deeper menus suck
+				for usability. k, bai.
+				*/
+				ul {
+					top: 0;
+					left: 100%;
+				}
 			}
-		} /* end current highlighters */
-	} /* end .menu ul */
-} /* end .menu */
+
+			/* highlight sub-menu current page */
+			li.current-menu-item,
+			li.current_page_item,
+			li.current_page_ancestor {
+				a {
+				}
+			}
+		}
+
+		/* showing sub-menus */
+		&:hover > ul {
+			top: auto;
+			visibility: visible;
+		}
+	} /* end .menu ul li */
+
+	/* highlight current page */
+	li.current-menu-item,
+	li.current_page_item,
+	li.current_page_ancestor {
+		a {
+		}
+	} /* end current highlighters */
+} /*
 
 /*********************
 POSTS & CONTENT STYLES
