@@ -208,7 +208,7 @@ HEADER STYLES
 }
 
 #logo {
-	margin: 0.75em 0;
+	margin: 0;
 	text-align: center;
 
 	a {
@@ -232,6 +232,9 @@ and more scalable.
 // .nav.top-nav.cf {
 // 	display: none;
 // }
+// #menu-main-menu {
+// 	display: none;
+// }
 
 a.toggle-nav {
 	text-align: center;
@@ -240,6 +243,8 @@ a.toggle-nav {
 	font-size: 3rem;
 	vertical-align: middle;
 	text-decoration: none;
+
+	color: $play-black;
 }
 .nav {
 	border-bottom: 0;

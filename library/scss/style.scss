@@ -76,6 +76,10 @@ This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 *********************/
+@media only screen and (min-width: 120px) and (max-width: 480px) {
+  @import "breakpoints/120up";
+}
+
 @media only screen and (min-width: 481px) {
   // styles in 481up.scss
   @import "breakpoints/481up";

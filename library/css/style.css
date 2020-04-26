@@ -1551,7 +1551,7 @@ HEADER STYLES
 }
 
 #logo {
-  margin: 0.75em 0;
+  margin: 0;
   text-align: center;
 }
 #logo a {
@@ -1575,6 +1575,7 @@ a.toggle-nav {
   font-size: 3rem;
   vertical-align: middle;
   text-decoration: none;
+  color: #23262b;
 }
 
 .nav {
@@ -2045,6 +2046,12 @@ This is for devices like the Galaxy Note or something that's
 larger than an iPhone but smaller than a tablet. Let's call them
 tweeners.
 *********************/
+@media only screen and (min-width: 120px) and (max-width: 480px) {
+  #logo.h1.nohyphen {
+    margin-bottom: 0;
+    background-color: red;
+  }
+}
 @media only screen and (min-width: 481px) {
   /******************************************************************
   Site Name:
