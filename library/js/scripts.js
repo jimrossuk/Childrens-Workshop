@@ -162,11 +162,10 @@ jQuery(document).ready(function ($) {
   loadGravatars();
 
 
-
-
+  // hamburger jimross
   jQuery(document).ready(function () {
     jQuery('.toggle-nav').click(function (e) {
-      jQuery('.nav .top-nav .cf').slideToggle(500);
+      jQuery('.main-nav').slideToggle(500);
 
       e.preventDefault();
     });

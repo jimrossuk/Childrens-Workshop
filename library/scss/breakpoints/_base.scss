@@ -228,7 +228,7 @@ the navs on the site so our css is cleaner
 and more scalable.
 */
 
-// hamburger jimross ??
+// // hamburger jimross ??
 .nav.top-nav.cf {
 	display: none;
 }
@@ -991,66 +991,4 @@ FOOTER STYLES
 
 .contactsize {
 	font-size: 1.25rem;
-}
-// .flex-container {
-// 	display: -webkit-flex;
-// 	display: flex;
-// 	-webkit-flex-direction: row;
-// 	flex-direction: row;
-// 	-webkit-align-items: center;
-// 	align-items: center;
-// 	flex-wrap: wrap;
-// }
-
-// .flex-item {
-// 	width: 30%;
-// 	border: 20%;
-// }
-
-// .info-container {
-// 	width: 70%;
-// 	padding: 3rem;
-// 	font-size: 1.4rem;
-// }
-@media screen and (max-width: 486px) {
-	li {
-		text-align: center;
-		padding: 5px;
-		list-style: none;
-	}
-	.toggle-nav {
-		background: darken($color: $fun-green, $amount: 20%);
-		padding: 15px;
-		margin: 15px;
-		display: inline-block !important;
-		color: #8d7f68;
-		color: #fff;
-		transition: color linear 0.15s;
-	}
-
-	.toggle-nav:hover,
-	.toggle-nav.active {
-		text-decoration: none;
-		color: #8d7f68;
-	}
-
-	.menu.main {
-		display: inline-block;
-		position: relative;
-		background: #fff;
-	}
-
-	.menu.main ul {
-		display: none;
-		position: absolute;
-		top: 80%;
-		left: 0px;
-		padding-left: 15px;
-		background: #fff;
-	}
-
-	.menu.main li {
-		display: block;
-		float: none;
-	}
 }

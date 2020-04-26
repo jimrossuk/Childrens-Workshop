@@ -2034,49 +2034,6 @@ FOOTER STYLES
   font-size: 1.25rem;
 }
 
-@media screen and (max-width: 486px) {
-  li {
-    text-align: center;
-    padding: 5px;
-    list-style: none;
-  }
-
-  .toggle-nav {
-    background: #387a81;
-    padding: 15px;
-    margin: 15px;
-    display: inline-block !important;
-    color: #8d7f68;
-    color: #fff;
-    transition: color linear 0.15s;
-  }
-
-  .toggle-nav:hover,
-.toggle-nav.active {
-    text-decoration: none;
-    color: #8d7f68;
-  }
-
-  .menu.main {
-    display: inline-block;
-    position: relative;
-    background: #fff;
-  }
-
-  .menu.main ul {
-    display: none;
-    position: absolute;
-    top: 80%;
-    left: 0px;
-    padding-left: 15px;
-    background: #fff;
-  }
-
-  .menu.main li {
-    display: block;
-    float: none;
-  }
-}
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2109,6 +2066,10 @@ tweeners.
   /*********************
   NAVIGATION STYLES
   *********************/
+  .nav.top-nav.cf, .nav.top-nav.comment-respond {
+    display: block;
+  }
+
   .toggle-nav {
     display: none !important;
   }
@@ -2219,6 +2180,11 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
+  .nav.top-nav.cf, .nav.top-nav.comment-respond {
+    display: block;
+    background: red;
+  }
+
   .nav {
     border: 0;
     /* end .menu ul li */
