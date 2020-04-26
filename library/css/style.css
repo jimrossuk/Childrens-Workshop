@@ -1568,6 +1568,15 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+a.toggle-nav {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  font-size: 3rem;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
 .nav {
   border-bottom: 0;
   margin: 0;
@@ -1586,7 +1595,8 @@ and more scalable.
   */
 }
 .nav li a {
-  color: #fff;
+  color: white;
+  color: #e6e6e6;
   text-decoration: none;
   padding: 0.75em;
   /*
@@ -1609,8 +1619,7 @@ and more scalable.
 .nav li.current-menu-item a,
 .nav li.current_page_item a,
 .nav li.current_page_ancestor a {
-  background: #45959d;
-  border-radius: 8px;
+  color: red;
 }
 
 /* end .nav */

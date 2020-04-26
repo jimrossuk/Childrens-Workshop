@@ -233,6 +233,14 @@ and more scalable.
 // 	display: none;
 // }
 
+a.toggle-nav {
+	text-align: center;
+	display: inline-block;
+	margin: 0 auto;
+	font-size: 3rem;
+	vertical-align: middle;
+	text-decoration: none;
+}
 .nav {
 	border-bottom: 0;
 	margin: 0;
@@ -244,7 +252,8 @@ and more scalable.
 		// making moible
 		a {
 			// display: block;
-			color: $white;
+			color: white;
+			color: darken($color: whitesmoke, $amount: 6%);
 			text-decoration: none;
 			padding: 0.75em;
 
@@ -256,7 +265,6 @@ and more scalable.
 			*/
 			&:hover,
 			&:focus {
-				// display: block;
 				list-style: none;
 			}
 			&:a {
@@ -305,8 +313,10 @@ and more scalable.
 	li.current_page_item,
 	li.current_page_ancestor {
 		a {
-			background: darken($color: $fun-green, $amount: 12);
-			border-radius: 8px;
+			color: red;
+			// background: darken($color: $fun-green, $amount: 12);
+			// border-radius: 8px;
+			// padding-right: 1.5%;
 		}
 	} /* end current highlighters */
 } /* end .nav */

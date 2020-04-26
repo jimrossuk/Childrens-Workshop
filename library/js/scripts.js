@@ -165,7 +165,7 @@ jQuery(document).ready(function ($) {
   // hamburger jimross
   jQuery(document).ready(function () {
     jQuery('.toggle-nav').click(function (e) {
-      jQuery('.main-nav').slideToggle(500);
+      jQuery('.main-nav').slideToggle(1);
 
       e.preventDefault();
     });
