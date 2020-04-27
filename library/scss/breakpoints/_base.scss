@@ -235,14 +235,19 @@ and more scalable.
 // #menu-main-menu {
 // 	display: none;
 // }
-
+.toggle-nav {
+	padding: 0;
+	margin: 0;
+}
 a.toggle-nav {
 	text-align: center;
 	display: inline-block;
 	margin: 0 auto;
-	font-size: 3rem;
+	font-size: 2rem;
 	vertical-align: middle;
 	text-decoration: none;
+	padding: 0;
+	margin: 0;
 
 	color: $play-black;
 }
