@@ -28,17 +28,17 @@
 											
 											<div class="mb-3 ">
 												<p class="mx-auto h3">Email:</p>
-												<a  class="h1" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
+												<a  class="h2" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
 											</div>
 											
 											<div class="mb-3">
 												<p class="mx-auto 32">Mobile:</p>
-												<a class="h1"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
+												<a class="h2"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
 											</div>
 											<div>
 												<p class=" h3">Landline:</p>
 												<div class="btm-margin">
-													<a class="h1"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
+													<a class="h2"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
 												</div>
 											</div>
 										
