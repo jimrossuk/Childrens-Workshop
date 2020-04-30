@@ -31,7 +31,7 @@ if(get_field('alert_message'))
 
 <div class=" lightgreen">
 
-    <h2 class=" h1 fp-graph mb-n2">Location</h2>
+    <h2 class=" h1  t-al">Location</h2>
     <div class="flexbox flexy">
         
         <div class="fp-box">
@@ -60,7 +60,7 @@ if(get_field('alert_message'))
 
 
     <div class="flexbox container mb-2">
-            <h1 class="h1 fp-graph">Clubs</h1>
+            <h1 class="h1 t-al">Clubs</h1>
             <div class="row flexy block">
                 <div class="col fp-graph">
 
