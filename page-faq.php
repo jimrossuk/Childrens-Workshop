@@ -19,7 +19,7 @@ if( have_rows('q_&_a') ):
                             <!-- display a sub field value -->
                             
                             <h2 class=" b    "> <?php the_sub_field('question'); ?> </h2>
-                            <h3 class="  c   "> <?php the_sub_field('answer'); ?>  </h3>
+                            <h3 class="  c fp-graph  "> <?php the_sub_field('answer'); ?>  </h3>
                         </div>
                         
                     </div>

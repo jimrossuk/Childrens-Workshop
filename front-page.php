@@ -62,14 +62,14 @@ if(get_field('alert_message'))
     <div class="flexbox container mb-2">
             <h1 class="h1 fp-graph">Clubs</h1>
             <div class="row flexy block">
-                <div class="col">
+                <div class="col fp-graph">
 
                     <h2 class="">Afterschool</h2>
                     
                     <p > <?php the_field('after_school_description'); ?> </p>
                 </div>
                 
-                <div class="col">
+                <div class="col fp-graph">
 
                     <h2>Holiday</h2>
                     <p>  <?php the_field('holiday_club_description'); ?> </p>
