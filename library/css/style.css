@@ -2057,6 +2057,11 @@ tweeners.
   #logo.h1.nohyphen {
     margin-bottom: 0;
   }
+
+  .nav.top-nav.cf,
+.nav.top-nav.comment-respond {
+    display: none;
+  }
 }
 @media only screen and (min-width: 481px) {
   /******************************************************************
