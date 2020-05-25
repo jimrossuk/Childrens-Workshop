@@ -28,8 +28,9 @@
     margin: 0;
 }
 
-.lightgreen {
-    background: $light-green;
+.borderline {
+    // background: $light-green;
+    border-top: 3px solid $light-green;
 }
 
 .h1-style {

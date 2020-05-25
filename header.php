@@ -66,7 +66,8 @@
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>
 					
-
+					<a class="pad toggle-nav" href="#">&#9776;  
+					</a>
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(
     					         'container' => false,                           // remove nav container
@@ -85,8 +86,7 @@
 					</nav>
 					<!-- Not sure of class for hamburger menu jimross -->
 				
-					<a class="toggle-nav" href="#">&#9776;  
-					</a>
+					
 
 				</div>
 

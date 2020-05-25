@@ -472,20 +472,24 @@ table {
 
 .clearfix,
 .cf,
-.comment-respond {
+a .comment-respond,
+a:visited .comment-respond {
   zoom: 1;
 }
 .clearfix:before, .clearfix:after,
 .cf:before,
-.comment-respond:before,
+a .comment-respond:before,
+a:visited .comment-respond:before,
 .cf:after,
-.comment-respond:after {
+a .comment-respond:after,
+a:visited .comment-respond:after {
   content: "";
   display: table;
 }
 .clearfix:after,
 .cf:after,
-.comment-respond:after {
+a .comment-respond:after,
+a:visited .comment-respond:after {
   clear: both;
 }
 
@@ -1013,7 +1017,8 @@ Here's a quick video to show how it works:
 http://www.youtube.com/watch?v=hwdVpKiJzac
 
 *********************/
-.blue-btn, #submit, .comment-reply-link {
+.blue-btn, a #submit, a .comment-reply-link,
+a:visited .comment-reply-link {
   display: inline-block;
   position: relative;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1030,12 +1035,12 @@ http://www.youtube.com/watch?v=hwdVpKiJzac
   -webkit-transition: background-color 0.14s ease-in-out;
   transition: background-color 0.14s ease-in-out;
 }
-.blue-btn:hover, #submit:hover, .comment-reply-link:hover, .blue-btn:focus, #submit:focus, .comment-reply-link:focus {
+.blue-btn:hover, a #submit:hover, a .comment-reply-link:hover, .blue-btn:focus, a #submit:focus, a .comment-reply-link:focus {
   color: #fff;
   text-decoration: none;
   outline: none;
 }
-.blue-btn:active, #submit:active, .comment-reply-link:active {
+.blue-btn:active, a #submit:active, a .comment-reply-link:active {
   top: 1px;
 }
 
@@ -1044,13 +1049,14 @@ An example button.
 You can use this example if you want. Just replace all the variables
 and it will create a button dependant on those variables.
 */
-.blue-btn, #submit, .comment-reply-link {
+.blue-btn, a #submit, a .comment-reply-link,
+a:visited .comment-reply-link {
   background-color: #d2e7d7;
 }
-.blue-btn:hover, #submit:hover, .comment-reply-link:hover, .blue-btn:focus, #submit:focus, .comment-reply-link:focus {
+.blue-btn:hover, a #submit:hover, a .comment-reply-link:hover, .blue-btn:focus, a #submit:focus, a .comment-reply-link:focus {
   background-color: #2574a8;
 }
-.blue-btn:active, #submit:active, .comment-reply-link:active {
+.blue-btn:active, a #submit:active, a .comment-reply-link:active {
   background-color: #2472a4;
 }
 
@@ -1061,10 +1067,6 @@ a.btn.btn-lg.btn-primary {
 
 .btn-color {
   background-color: #d2e7d7;
-}
-
-:visited {
-  color: white;
 }
 
 .btn.btn-outline-success.pad {
@@ -1371,7 +1373,7 @@ select {
 }
 
 h2 {
-  color: #64b3bb;
+  color: red;
 }
 
 /*********************
@@ -1400,7 +1402,7 @@ body {
   font-size: 100%;
   line-height: 1.5;
   color: #23262b;
-  background-color: #ebece7;
+  background-color: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -1457,18 +1459,99 @@ LINK STYLES
 *********************/
 a,
 a:visited {
-  color: firebrick;
+  color: blue;
+  font-size: 1.1em;
   /* on hover */
-  /* on click */
-  /* mobile tap color */
+  /******************************************************************
+  H1, H2, H3, H4, H5 STYLES
+  ******************************************************************/
+  /*********************
+  HEADER STYLES
+  *********************/
+  /*********************
+  NAVIGATION STYLES
+  *********************/
+  /*
+  all navs have a .nav class applied via
+  the wp_menu function; this is so we can
+  easily write one group of styles for
+  the navs on the site so our css is cleaner
+  and more scalable.
+  */
+  /* end .nav */
+  /*********************
+  POSTS & CONTENT STYLES
+  *********************/
+  /* end .hentry */
+  /* want to style individual post classes? Booya! */
+  /* post by id (i.e. post-3) */
+  /* general post style */
+  /* general article on a page style */
+  /* general style on an attatchment */
+  /* sticky post style */
+  /* hentry class */
+  /* style by category (i.e. category-videos) */
+  /* style by tag (i.e. tag-news) */
+  /* post meta */
+  /* entry content */
+  /* end .entry-content */
+  /* end .wp-caption */
+  /* image gallery styles */
+  /* end .gallery */
+  /* gallery caption styles */
+  /******************************************************************
+  PAGE NAVI STYLES
+  ******************************************************************/
+  /* end .bones_page_navi */
+  /* fallback previous & next links */
+  /* end .wp-prev-next */
+  /******************************************************************
+  COMMENT STYLES
+  ******************************************************************/
+  /* h3 comment title */
+  /* comment meta */
+  /* comment content */
+  /* end .commentlist .comment_content */
+  /* comment reply link */
+  /* end .commentlist .comment-reply-link */
+  /* edit comment link */
+  /******************************************************************
+  COMMENT FORM STYLES
+  ******************************************************************/
+  /* comment submit button */
+  /* comment form title */
+  /* cancel comment reply link */
+  /* logged in comments */
+  /* allowed tags */
+  /* no comments */
+  /*********************
+  SIDEBARS & ASIDES
+  *********************/
+  /*********************
+  FOOTER STYLES
+  *********************/
+  /*
+  if you checked out the link above:
+  http://www.alistapart.com/articles/organizing-mobile/
+  you'll want to style the footer nav
+  a bit more in-depth. Remember to keep
+  it simple because you'll have to
+  override these styles for the desktop
+  view.
+  */
+  /* end .footer-links */
 }
 a:hover, a:focus,
 a:visited:hover,
 a:visited:focus {
-  color: #8b1b1b;
+  color: #f8f7f7;
+  text-decoration: none;
+  /* on click */
+  /* mobile tap color */
 }
-a:link,
-a:visited:link {
+a:hover:link, a:focus:link,
+a:visited:hover:link,
+a:visited:focus:link {
   /*
   this highlights links on iPhones/iPads.
   so it basically works like the :hover selector
@@ -1476,20 +1559,26 @@ a:visited:link {
   */
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
 }
-
-/******************************************************************
-H1, H2, H3, H4, H5 STYLES
-******************************************************************/
-h1,
-.h1,
-h2,
-.h2,
-h3,
-.h3,
-h4,
-.h4,
-h5,
-.h5 {
+a h1,
+a .h1,
+a h2,
+a .h2,
+a h3,
+a .h3,
+a h4,
+a .h4,
+a h5,
+a .h5,
+a:visited h1,
+a:visited .h1,
+a:visited h2,
+a:visited .h2,
+a:visited h3,
+a:visited .h3,
+a:visited h4,
+a:visited .h4,
+a:visited h5,
+a:visited .h5 {
   text-rendering: optimizelegibility;
   font-weight: 500;
   /*
@@ -1498,82 +1587,85 @@ h5,
   */
   /* removing text decoration from all headline links */
 }
-h1 a,
-.h1 a,
-h2 a,
-.h2 a,
-h3 a,
-.h3 a,
-h4 a,
-.h4 a,
-h5 a,
-.h5 a {
+a h1 a,
+a .h1 a,
+a h2 a,
+a .h2 a,
+a h3 a,
+a .h3 a,
+a h4 a,
+a .h4 a,
+a h5 a,
+a .h5 a,
+a:visited h1 a,
+a:visited .h1 a,
+a:visited h2 a,
+a:visited .h2 a,
+a:visited h3 a,
+a:visited .h3 a,
+a:visited h4 a,
+a:visited .h4 a,
+a:visited h5 a,
+a:visited .h5 a {
   text-decoration: none;
 }
-
-h1,
-.h1 {
+a h1,
+a .h1,
+a:visited h1,
+a:visited .h1 {
   font-size: 2.6rem;
   line-height: 1.333em;
 }
-
-h2,
-.h2 {
+a h2,
+a .h2,
+a:visited h2,
+a:visited .h2 {
   font-size: 1.75em;
   line-height: 1.4em;
   margin-bottom: 0.375em;
 }
-
-h3,
-.h3 {
+a h3,
+a .h3,
+a:visited h3,
+a:visited .h3 {
   font-size: 1.125em;
 }
-
-h4,
-.h4 {
+a h4,
+a .h4,
+a:visited h4,
+a:visited .h4 {
   font-size: 1.1em;
   font-weight: 700;
 }
-
-h5,
-.h5 {
+a h5,
+a .h5,
+a:visited h5,
+a:visited .h5 {
   font-size: 0.846em;
   line-height: 2.09em;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-
-/*********************
-HEADER STYLES
-*********************/
-.header {
+a .header,
+a:visited .header {
   background-color: #323944;
 }
-
-#logo {
+a #logo,
+a:visited #logo {
   margin: 0;
   text-align: center;
 }
-#logo a {
+a #logo a,
+a:visited #logo a {
   color: #fff;
 }
-
-/*********************
-NAVIGATION STYLES
-*********************/
-/*
-all navs have a .nav class applied via
-the wp_menu function; this is so we can
-easily write one group of styles for
-the navs on the site so our css is cleaner
-and more scalable.
-*/
-.toggle-nav {
+a .toggle-nav,
+a:visited .toggle-nav {
   padding: 0;
   margin: 0;
 }
-
-a.toggle-nav {
+a a.toggle-nav,
+a:visited a.toggle-nav {
   text-align: center;
   display: inline-block;
   margin: 0 auto;
@@ -1584,8 +1676,8 @@ a.toggle-nav {
   margin: 0;
   color: #23262b;
 }
-
-.nav {
+a .nav,
+a:visited .nav {
   border-bottom: 0;
   margin: 0;
   padding-bottom: 1.3rem;
@@ -1593,7 +1685,8 @@ a.toggle-nav {
   /* highlight current page */
   /* end current highlighters */
 }
-.nav li {
+a .nav li,
+a:visited .nav li {
   /*
   so you really have to rethink your dropdowns for mobile.
   you don't want to have it expand too much because the
@@ -1602,11 +1695,12 @@ a.toggle-nav {
   http://www.alistapart.com/articles/organizing-mobile/
   */
 }
-.nav li a {
-  color: white;
-  color: #e6e6e6;
+a .nav li a,
+a:visited .nav li a {
+  color: #39acc4;
   text-decoration: none;
   padding: 0.75em;
+  font-size: medium;
   /*
   remember this is for mobile ONLY, so there's no need
   to even declare hover styles here, you can do it in
@@ -1614,141 +1708,157 @@ a.toggle-nav {
   keep this file as small as possible!
   */
 }
-.nav li a:hover, .nav li a:focus {
+a .nav li a:hover, a .nav li a:focus,
+a:visited .nav li a:hover,
+a:visited .nav li a:focus {
   list-style: none;
 }
-.nav li a:a {
+a .nav li a:a,
+a:visited .nav li a:a {
   text-decoration: none;
 }
-.nav li ul.sub-menu li a,
-.nav li ul.children li a {
+a .nav li ul.sub-menu li a,
+a .nav li ul.children li a,
+a:visited .nav li ul.sub-menu li a,
+a:visited .nav li ul.children li a {
   padding-left: 30px;
 }
-.nav li.current-menu-item a,
-.nav li.current_page_item a,
-.nav li.current_page_ancestor a {
+a .nav li.current-menu-item a,
+a .nav li.current_page_item a,
+a .nav li.current_page_ancestor a,
+a:visited .nav li.current-menu-item a,
+a:visited .nav li.current_page_item a,
+a:visited .nav li.current_page_ancestor a {
   color: red;
 }
-
-/* end .nav */
-/*********************
-POSTS & CONTENT STYLES
-*********************/
-#content {
+a #content,
+a:visited #content {
   margin-top: 1.5em;
 }
-
-.hentry {
-  background-color: #ebece7;
+a .hentry,
+a:visited .hentry {
+  background-color: #fff;
   border-radius: 3px;
   margin-bottom: 1.5em;
-  border: 1.5px solid #64b3bb;
+  border: 1.5px solid;
 }
-.hentry header {
+a .hentry header,
+a:visited .hentry header {
   padding: 1.5em;
 }
-.hentry footer {
+a .hentry footer,
+a:visited .hentry footer {
   padding: 1.5em;
 }
-.hentry footer p {
+a .hentry footer p,
+a:visited .hentry footer p {
   margin: 0;
 }
-
-/* end .hentry */
-.single-title,
-.page-title,
-.entry-title {
+a .single-title,
+a .page-title,
+a .entry-title,
+a:visited .single-title,
+a:visited .page-title,
+a:visited .entry-title {
   margin: 0;
 }
-
-/* want to style individual post classes? Booya! */
-/* post by id (i.e. post-3) */
-/* general post style */
-/* general article on a page style */
-/* general style on an attatchment */
-/* sticky post style */
-/* hentry class */
-/* style by category (i.e. category-videos) */
-/* style by tag (i.e. tag-news) */
-/* post meta */
-.byline {
+a .byline,
+a:visited .byline {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-/* entry content */
-.entry-content {
+a .entry-content,
+a:visited .entry-content {
   padding: 1.5em 1.5em 0;
   /*
-  		image alignment on a screen this size may be
-  		a bit difficult. It's set to start aligning
-  		and floating images at the next breakpoint,
-  		but it's up to you. Feel free to change it up.
-  		*/
+  	image alignment on a screen this size may be
+  	a bit difficult. It's set to start aligning
+  	and floating images at the next breakpoint,
+  	but it's up to you. Feel free to change it up.
+  	*/
 }
-.entry-content p {
+a .entry-content p,
+a:visited .entry-content p {
   margin: 0 0 1.5em;
 }
-.entry-content table {
+a .entry-content table,
+a:visited .entry-content table {
   width: 100%;
   border: 1px solid #eaedf2;
   margin-bottom: 1.5em;
 }
-.entry-content table caption {
+a .entry-content table caption,
+a:visited .entry-content table caption {
   margin: 0 0 7px;
   font-size: 0.75em;
   color: #9fa6b4;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-.entry-content tr {
+a .entry-content tr,
+a:visited .entry-content tr {
   border-bottom: 1px solid #eaedf2;
 }
-.entry-content tr:nth-child(even) {
+a .entry-content tr:nth-child(even),
+a:visited .entry-content tr:nth-child(even) {
   background-color: #f8f9fa;
 }
-.entry-content td {
+a .entry-content td,
+a:visited .entry-content td {
   padding: 7px;
   border-right: 1px solid #eaedf2;
 }
-.entry-content td:last-child {
+a .entry-content td:last-child,
+a:visited .entry-content td:last-child {
   border-right: 0;
 }
-.entry-content th {
+a .entry-content th,
+a:visited .entry-content th {
   background-color: #f8f9fa;
   border-bottom: 1px solid #eaedf2;
   border-right: 1px solid #eaedf2;
 }
-.entry-content th:last-child {
+a .entry-content th:last-child,
+a:visited .entry-content th:last-child {
   border-right: 0;
 }
-.entry-content blockquote {
+a .entry-content blockquote,
+a:visited .entry-content blockquote {
   margin: 0 0 1.5em 0.75em;
   padding: 0 0 0 0.75em;
   border-left: 3px solid #2980b9;
   font-style: italic;
   color: #9fa6b4;
 }
-.entry-content dd {
+a .entry-content dd,
+a:visited .entry-content dd {
   margin-left: 0;
   font-size: 0.9em;
   color: #787878;
   margin-bottom: 1.5em;
 }
-.entry-content img {
+a .entry-content img,
+a:visited .entry-content img {
   margin: 0 0 1.5em 0;
   max-width: 100%;
   height: auto;
 }
-.entry-content .size-auto,
-.entry-content .size-full,
-.entry-content .size-large,
-.entry-content .size-medium,
-.entry-content .size-thumbnail {
+a .entry-content .size-auto,
+a .entry-content .size-full,
+a .entry-content .size-large,
+a .entry-content .size-medium,
+a .entry-content .size-thumbnail,
+a:visited .entry-content .size-auto,
+a:visited .entry-content .size-full,
+a:visited .entry-content .size-large,
+a:visited .entry-content .size-medium,
+a:visited .entry-content .size-thumbnail {
   max-width: 100%;
   height: auto;
 }
-.entry-content pre {
+a .entry-content pre,
+a:visited .entry-content pre {
   background: #323944;
   color: #f8f9fa;
   font-size: 0.9em;
@@ -1756,45 +1866,41 @@ POSTS & CONTENT STYLES
   margin: 0 0 1.5em;
   border-radius: 3px;
 }
-
-/* end .entry-content */
-.wp-caption {
+a .wp-caption,
+a:visited .wp-caption {
   max-width: 100%;
   background: #eee;
   padding: 5px;
   /* images inside wp-caption */
 }
-.wp-caption img {
+a .wp-caption img,
+a:visited .wp-caption img {
   max-width: 100%;
   margin-bottom: 0;
   width: 100%;
 }
-.wp-caption p.wp-caption-text {
+a .wp-caption p.wp-caption-text,
+a:visited .wp-caption p.wp-caption-text {
   font-size: 0.85em;
   margin: 4px 0 7px;
   text-align: center;
 }
-
-/* end .wp-caption */
-/* image gallery styles */
-/* end .gallery */
-/* gallery caption styles */
-.tags {
+a .tags,
+a:visited .tags {
   margin: 0;
 }
-
-/******************************************************************
-PAGE NAVI STYLES
-******************************************************************/
-.pagination,
-.wp-prev-next {
+a .pagination,
+a .wp-prev-next,
+a:visited .pagination,
+a:visited .wp-prev-next {
   margin: 1.5em 0;
 }
-
-.pagination {
+a .pagination,
+a:visited .pagination {
   text-align: center;
 }
-.pagination ul {
+a .pagination ul,
+a:visited .pagination ul {
   display: inline-block;
   background-color: #fff;
   white-space: nowrap;
@@ -1802,7 +1908,8 @@ PAGE NAVI STYLES
   clear: both;
   border-radius: 3px;
 }
-.pagination li {
+a .pagination li,
+a:visited .pagination li {
   padding: 0;
   margin: 0;
   float: left;
@@ -1810,8 +1917,10 @@ PAGE NAVI STYLES
   overflow: hidden;
   border-right: 1px solid #eaedf2;
 }
-.pagination a,
-.pagination span {
+a .pagination a,
+a .pagination span,
+a:visited .pagination a,
+a:visited .pagination span {
   margin: 0;
   text-decoration: none;
   padding: 0;
@@ -1823,47 +1932,49 @@ PAGE NAVI STYLES
   display: block;
   color: #2980b9;
 }
-.pagination a:hover, .pagination a:focus,
-.pagination span:hover,
-.pagination span:focus {
+a .pagination a:hover, a .pagination a:focus,
+a .pagination span:hover,
+a .pagination span:focus,
+a:visited .pagination a:hover,
+a:visited .pagination a:focus,
+a:visited .pagination span:hover,
+a:visited .pagination span:focus {
   background-color: #2980b9;
   color: #fff;
 }
-.pagination .current {
+a .pagination .current,
+a:visited .pagination .current {
   cursor: default;
   color: #5c6b80;
 }
-.pagination .current:hover, .pagination .current:focus {
+a .pagination .current:hover, a .pagination .current:focus,
+a:visited .pagination .current:hover,
+a:visited .pagination .current:focus {
   background-color: #fff;
   color: #5c6b80;
 }
-
-/* end .bones_page_navi */
-/* fallback previous & next links */
-.wp-prev-next .prev-link {
+a .wp-prev-next .prev-link,
+a:visited .wp-prev-next .prev-link {
   float: left;
 }
-.wp-prev-next .next-link {
+a .wp-prev-next .next-link,
+a:visited .wp-prev-next .next-link {
   float: right;
 }
-
-/* end .wp-prev-next */
-/******************************************************************
-COMMENT STYLES
-******************************************************************/
-/* h3 comment title */
-#comments-title {
+a #comments-title,
+a:visited #comments-title {
   padding: 0.75em;
   margin: 0;
   border-top: 1px solid #f8f9fa;
   /* number of comments span */
 }
-.commentlist {
+a .commentlist,
+a:visited .commentlist {
   margin: 0;
   list-style-type: none;
 }
-
-.comment {
+a .comment,
+a:visited .comment {
   position: relative;
   clear: both;
   overflow: hidden;
@@ -1874,144 +1985,144 @@ COMMENT STYLES
   /* end children */
   /* general comment classes */
 }
-.comment .comment-author {
+a .comment .comment-author,
+a:visited .comment .comment-author {
   padding: 7px;
   border: 0;
 }
-.comment .vcard {
+a .comment .vcard,
+a:visited .comment .vcard {
   margin-left: 50px;
 }
-.comment .vcard cite.fn {
+a .comment .vcard cite.fn,
+a:visited .comment .vcard cite.fn {
   font-weight: 700;
   font-style: normal;
 }
-.comment .vcard time {
+a .comment .vcard time,
+a:visited .comment .vcard time {
   display: block;
   font-size: 0.9em;
   font-style: italic;
 }
-.comment .vcard time a {
+a .comment .vcard time a,
+a:visited .comment .vcard time a {
   color: #9fa6b4;
   text-decoration: none;
 }
-.comment .vcard time a:hover {
+a .comment .vcard time a:hover,
+a:visited .comment .vcard time a:hover {
   text-decoration: underline;
 }
-.comment .vcard .avatar {
+a .comment .vcard .avatar,
+a:visited .comment .vcard .avatar {
   position: absolute;
   left: 16px;
   border-radius: 50%;
 }
-.comment:last-child {
+a .comment:last-child,
+a:visited .comment:last-child {
   margin-bottom: 0;
 }
-.comment .children {
+a .comment .children,
+a:visited .comment .children {
   margin: 0;
   /* variations */
   /* change number for different depth */
 }
-.comment[class*=depth-] {
+a .comment[class*=depth-],
+a:visited .comment[class*=depth-] {
   margin-top: 1.1em;
 }
-.comment.depth-1 {
+a .comment.depth-1,
+a:visited .comment.depth-1 {
   margin-left: 0;
   margin-top: 0;
 }
-.comment:not(.depth-1) {
+a .comment:not(.depth-1),
+a:visited .comment:not(.depth-1) {
   margin-top: 0;
   margin-left: 7px;
   padding: 7px;
 }
-.comment.odd {
+a .comment.odd,
+a:visited .comment.odd {
   background-color: #fff;
 }
-.comment.even {
+a .comment.even,
+a:visited .comment.even {
   background: #f8f9fa;
 }
-/* comment meta */
-/* comment content */
-.comment_content p {
+a .comment_content p,
+a:visited .comment_content p {
   margin: 0.7335em 0 1.5em;
   font-size: 1em;
   line-height: 1.5em;
 }
-
-/* end .commentlist .comment_content */
-/* comment reply link */
-.comment-reply-link {
+a .comment-reply-link,
+a:visited .comment-reply-link {
   font-size: 0.9em;
   float: right;
 }
-/* end .commentlist .comment-reply-link */
-/* edit comment link */
-.comment-edit-link {
+a .comment-edit-link,
+a:visited .comment-edit-link {
   font-style: italic;
   margin: 0 7px;
   text-decoration: none;
   font-size: 0.9em;
 }
-
-/******************************************************************
-COMMENT FORM STYLES
-******************************************************************/
-.comment-respond {
+a .comment-respond,
+a:visited .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
 }
-
-#reply-title {
+a #reply-title,
+a:visited #reply-title {
   margin: 0;
 }
-
-.logged-in-as {
+a .logged-in-as,
+a:visited .logged-in-as {
   color: #9fa6b4;
   font-style: italic;
   margin: 0;
 }
-.logged-in-as a {
+a .logged-in-as a,
+a:visited .logged-in-as a {
   color: #5c6b80;
 }
-
-.comment-form-comment {
+a .comment-form-comment,
+a:visited .comment-form-comment {
   margin: 1.5em 0 0.75em;
 }
-
-.form-allowed-tags {
+a .form-allowed-tags,
+a:visited .form-allowed-tags {
   padding: 1.5em;
   background-color: #f8f9fa;
   font-size: 0.9em;
 }
-
-/* comment submit button */
-#submit {
+a #submit,
+a:visited #submit {
   float: right;
   font-size: 1em;
 }
-
-/* comment form title */
-#comment-form-title {
+a #comment-form-title,
+a:visited #comment-form-title {
   margin: 0 0 1.1em;
 }
-
-/* cancel comment reply link */
-/* logged in comments */
-/* allowed tags */
-#allowed_tags {
+a #allowed_tags,
+a:visited #allowed_tags {
   margin: 1.5em 10px 0.7335em 0;
 }
-
-/* no comments */
-.nocomments {
+a .nocomments,
+a:visited .nocomments {
   margin: 0 20px 1.1em;
 }
-
-/*********************
-SIDEBARS & ASIDES
-*********************/
-.widget ul li {
+a .widget ul li,
+a:visited .widget ul li {
   /* deep nesting */
 }
-.no-widgets {
+a .no-widgets,
+a:visited .no-widgets {
   background-color: #fff;
   padding: 1.5em;
   text-align: center;
@@ -2019,31 +2130,17 @@ SIDEBARS & ASIDES
   border-radius: 2px;
   margin-bottom: 1.5em;
 }
-
-/*********************
-FOOTER STYLES
-*********************/
-.footer {
+a .footer,
+a:visited .footer {
   clear: both;
-  background-color: #64b3bb;
   color: #f8f9fa;
 }
-
-/*
-	if you checked out the link above:
-	http://www.alistapart.com/articles/organizing-mobile/
-	you'll want to style the footer nav
-	a bit more in-depth. Remember to keep
-	it simple because you'll have to
-	override these styles for the desktop
-	view.
-	*/
-/* end .footer-links */
-.block {
+a .block,
+a:visited .block {
   display: block;
 }
-
-.contactsize {
+a .contactsize,
+a:visited .contactsize {
   font-size: 1.25rem;
 }
 
@@ -2089,7 +2186,7 @@ tweeners.
   /*********************
   NAVIGATION STYLES
   *********************/
-  .nav.top-nav.cf, .nav.top-nav.comment-respond {
+  .nav.top-nav.cf, a .nav.top-nav.comment-respond {
     display: none;
   }
 
@@ -2119,9 +2216,6 @@ tweeners.
     you can use hover styles here even though this size
     has the possibility of being a mobile device.
     */
-  }
-  .nav li a:hover, .nav li a:focus {
-    color: #fff;
   }
   .nav li ul.sub-menu,
 .nav li ul.children {
@@ -2209,7 +2303,7 @@ tweeners.
     display: none !important;
   }
 
-  .nav.top-nav.cf, .nav.top-nav.comment-respond {
+  .nav.top-nav.cf, a .nav.top-nav.comment-respond {
     display: block;
   }
 
@@ -2239,9 +2333,6 @@ tweeners.
     you can use hover styles here even though this size
     has the possibility of being a mobile device.
     */
-  }
-  .nav li a:hover, .nav li a:focus {
-    color: #fff;
   }
   .nav li a:last-child {
     padding-right: 0;
@@ -2327,7 +2418,7 @@ you can add resource intensive styles.
   /*********************
   NAVIGATION STYLES
   *********************/
-  .nav.top-nav.cf, .nav.top-nav.comment-respond {
+  .nav.top-nav.cf, a .nav.top-nav.comment-respond {
     display: block;
   }
 
@@ -2357,9 +2448,6 @@ you can add resource intensive styles.
     you can use hover styles here even though this size
     has the possibility of being a mobile device.
     */
-  }
-  .nav li a:hover, .nav li a:focus {
-    color: #fff;
   }
   .nav li ul.sub-menu,
 .nav li ul.children {
@@ -2458,8 +2546,7 @@ you can add resource intensive styles.
   }
   /* end .footer-links */
   .staff_name {
-    background: #efe89b;
-    color: #64b3bb;
+    background: #6fc4d5;
     font-size: 2.3rem;
     text-align: center;
     margin: 0px;
@@ -2468,9 +2555,8 @@ you can add resource intensive styles.
 
   .job_titles {
     padding: 0.3rem 0.3rem 1rem 0.3rem;
-    background: #efe89b;
+    background: #6fc4d5;
     text-align: center;
-    color: #64b3bb;
     font-size: 1.8rem;
     margin: 0;
   }
@@ -2669,7 +2755,7 @@ nav {
   }
 }
 .header {
-  background: #64b3bb;
+  background: #fff;
 }
 
 h1 {
@@ -2678,7 +2764,8 @@ h1 {
 }
 
 #logo a {
-  color: #efe89b;
+  color: #6fc4d5;
+  text-decoration: none;
 }
 
 img {
@@ -2690,8 +2777,7 @@ img {
 }
 
 .staff_name {
-  background: #efe89b;
-  color: #64b3bb;
+  background: #6fc4d5;
   font-size: 2.3rem;
   text-align: center;
   margin: 0px;
@@ -2700,9 +2786,8 @@ img {
 
 .job_titles {
   padding: 0.3rem;
-  background: #efe89b;
+  background: #6fc4d5;
   text-align: center;
-  color: #64b3bb;
   font-size: 1.8rem;
   margin: 0;
 }
@@ -2743,8 +2828,8 @@ img {
   margin: 0;
 }
 
-.lightgreen {
-  background: #d2e7d7;
+.borderline {
+  border-top: 3px solid #d2e7d7;
 }
 
 .h1-style {
@@ -2781,7 +2866,7 @@ img {
 
 .flexandcolor {
   display: flex;
-  background: #efe89b;
+  background: #6fc4d5;
 }
 
 .a {
@@ -2789,7 +2874,7 @@ img {
   display: block;
   padding: 3rem;
   margin: 2rem;
-  border: #64b3bb 2px solid;
+  border: 2px solid;
 }
 
 .b {
@@ -2814,7 +2899,6 @@ img {
 .wpcf7 input[type=text],
 .wpcf7 input[type=email],
 .wpcf7 textarea {
-  background-color: #64b3bb;
   color: #000;
   width: 70%;
 }
@@ -2824,7 +2908,6 @@ img {
 }
 
 .wpcf7-submit {
-  background: #64b3bb;
   border-radius: 3px;
   color: white;
 }
@@ -2832,7 +2915,7 @@ img {
 .upperC {
   text-transform: uppercase;
   font-size: 2rem;
-  background: #ebece7;
+  background: #fff;
   color: #d23631;
 }
 

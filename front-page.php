@@ -29,9 +29,9 @@ if(get_field('alert_message'))
         <p>  <?php  the_field('front_page_info5'); ?>  </p>
     </div>
 
-<div class=" lightgreen">
+<div class=" boarderline">
 
-    <h2 class=" h1  t-al">Location</h2>
+    <h1 class=" h1  t-al">Location</h1>
     <div class="flexbox flexy">
         
         <div class="fp-box">
