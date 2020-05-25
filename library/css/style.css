@@ -2420,6 +2420,7 @@ you can add resource intensive styles.
   *********************/
   .nav.top-nav.cf, a .nav.top-nav.comment-respond {
     display: block;
+    text-align: center;
   }
 
   .nav {
