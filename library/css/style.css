@@ -1372,8 +1372,12 @@ select {
   background-position: 97.5% center;
 }
 
+h1 {
+  color: blue;
+}
+
 h2 {
-  color: red;
+  color: green;
 }
 
 /*********************
@@ -1459,7 +1463,7 @@ LINK STYLES
 *********************/
 a,
 a:visited {
-  color: blue;
+  color: pink;
   font-size: 1.1em;
   /* on hover */
   /******************************************************************
@@ -1544,7 +1548,7 @@ a:visited {
 a:hover, a:focus,
 a:visited:hover,
 a:visited:focus {
-  color: #f8f7f7;
+  color: red;
   text-decoration: none;
   /* on click */
   /* mobile tap color */
@@ -1580,7 +1584,7 @@ a:visited .h4,
 a:visited h5,
 a:visited .h5 {
   text-rendering: optimizelegibility;
-  font-weight: 500;
+  font-weight: 700;
   /*
   if you're going to use webfonts, be sure to check your weights
   http://css-tricks.com/watch-your-font-weight/
@@ -1658,6 +1662,7 @@ a:visited #logo {
 a #logo a,
 a:visited #logo a {
   color: #fff;
+  background-color: blue;
 }
 a .toggle-nav,
 a:visited .toggle-nav {
@@ -2547,17 +2552,13 @@ you can add resource intensive styles.
   }
   /* end .footer-links */
   .staff_name {
-    background: #6fc4d5;
     font-size: 2.3rem;
-    text-align: center;
     margin: 0px;
     padding: 0.5rem;
   }
 
   .job_titles {
     padding: 0.3rem 0.3rem 1rem 0.3rem;
-    background: #6fc4d5;
-    text-align: center;
     font-size: 1.8rem;
     margin: 0;
   }
@@ -2759,11 +2760,6 @@ nav {
   background: #fff;
 }
 
-h1 {
-  color: green;
-  font-size: 0.8em;
-}
-
 #logo a {
   color: #6fc4d5;
   text-decoration: none;
@@ -2778,17 +2774,15 @@ img {
 }
 
 .staff_name {
-  background: #6fc4d5;
+  color: #6fc4d5;
   font-size: 2.3rem;
-  text-align: center;
   margin: 0px;
   padding: 0.5rem;
 }
 
 .job_titles {
   padding: 0.3rem;
-  background: #6fc4d5;
-  text-align: center;
+  color: #6fc4d5;
   font-size: 1.8rem;
   margin: 0;
 }
@@ -2801,7 +2795,7 @@ img {
 }
 
 .fp-graph {
-  padding: 0.9rem;
+  padding: 2.9rem;
   text-align: justify;
   margin: 0 auto;
 }
@@ -2867,7 +2861,6 @@ img {
 
 .flexandcolor {
   display: flex;
-  background: #6fc4d5;
 }
 
 .a {
@@ -2875,7 +2868,7 @@ img {
   display: block;
   padding: 3rem;
   margin: 2rem;
-  border: 2px solid;
+  border: 2px solid #6fc4d5;
 }
 
 .b {

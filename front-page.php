@@ -31,24 +31,24 @@ if(get_field('alert_message'))
 
 <div class=" boarderline">
 
-    <h1 class=" h1  t-al">Location</h1>
+    <h1 class=" h1 t-al">Location</h1>
     <div class="flexbox flexy">
         
         <div class="fp-box">
 
             <div class="mb-3 ">
-                <p class="mx-auto  h3">Email:</p>
-                <a  class="h1 contactsize" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
+                <p class="mx-auto  ">Email:</p>
+                <a  class=" contactsize" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
             <div class="mb-3">
-                <p class="mx-auto   32">Mobile:</p>
-                <a class="h1 contactsize"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
+                <p class="mx-auto   ">Mobile:</p>
+                <a class=" contactsize"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
             </div>
 
-                <p class="   h3">Landline:</p>
+                <p class="   ">Landline:</p>
                 <div class="btm-margin">
-                <a class="h1 contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
+                <a class=" contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
 
         </div>

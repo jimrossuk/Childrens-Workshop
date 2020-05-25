@@ -17,7 +17,8 @@
     					'fallback_cb' => 'bones_footer_links_fallback'  // fallback function
 						)); ?>
 					</nav>
-						<div>
+						<div class="x">
+
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
 					<a href="https://www.jimrossphoto.com" style="text-align: right"> Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>

@@ -116,14 +116,14 @@ LINK STYLES
 
 a,
 a:visited {
-	color: blue;
+	color: pink;
 	font-size: 1.1em;
 
 	/* on hover */
 	&:hover,
 	&:focus {
 		// Here the color for nav here!!}
-		color: lighten($color: #f1efef, $amount: 3%);
+		color: red;
 		text-decoration: none;
 
 		/* on click */
@@ -156,7 +156,8 @@ H1, H2, H3, H4, H5 STYLES
 	h5,
 	.h5 {
 		text-rendering: optimizelegibility;
-		font-weight: 500;
+		font-weight: 700;
+
 		/*
 	if you're going to use webfonts, be sure to check your weights
 	http://css-tricks.com/watch-your-font-weight/
@@ -215,6 +216,7 @@ HEADER STYLES
 
 		a {
 			color: $white;
+			background-color: blue;
 		}
 	}
 
