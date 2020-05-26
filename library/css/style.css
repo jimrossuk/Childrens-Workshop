@@ -2150,9 +2150,9 @@ a:visited .contactsize {
 }
 
 .fp-box {
-  padding: 4em 1.5rem 2rem 2rem;
+  padding: 0;
   text-align: center;
-  margin-bottom: 2rem;
+  align-items: center;
 }
 
 /*********************
@@ -2305,6 +2305,17 @@ tweeners.
   do they need tweaking?
   */
   /* end .footer-links */
+  .contactsize {
+    font-size: 2rem;
+  }
+
+  .fp-box {
+    padding: 0 1.5rem 2rem 2rem;
+  }
+
+  .t-al {
+    margin-bottom: 2rem;
+  }
 }
 @media only screen and (min-width: 608px) {
   .toggle-nav {
@@ -2596,10 +2607,6 @@ you can add resource intensive styles.
   .flexy {
     display: flex;
   }
-
-  .imjim {
-    max-width: 100%;
-  }
 }
 /*********************
 DESKTOP
@@ -2822,7 +2829,6 @@ img {
 }
 
 .fp-box {
-  padding: 4em 1.5rem 2rem 2rem;
   text-align: center;
   margin-bottom: 2rem;
 }

@@ -179,6 +179,15 @@ do they need tweaking?
 		}
 	}
 } /* end .footer-links */
-// .contactsize {
-// 	font-size: 2rem;
-// }
+.contactsize {
+	font-size: 2rem;
+}
+
+// takes away padding on contact info on Location section
+.fp-box {
+	padding: 0 1.5rem 2rem 2rem;
+}
+
+.t-al {
+	margin-bottom: 2rem;
+}
