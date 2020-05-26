@@ -16,12 +16,14 @@
 
 .fp-box {
     //padding-right: 1.1rem;
-    padding: 1em 0 2rem 0;
+    padding: 4em 1.5rem 2rem 0;
     text-align: center;
 }
 
 .flexy {
+    display: flex;
     margin: auto;
+    padding: 2rem;
 }
 
 .p-style {
@@ -48,18 +50,6 @@
     -epub-hyphens: none;
     hyphens: none;
 }
-// .minus-h1::before {
-//     background: firebrick;
-//     padding: 3rem;
-// }
-
-// //
-
-// .minus-h1::after {
-//     padding: 3rem;
-//     background: gold;
-//     content: global-variable-exists($name: backgroundColor);
-// }
 
 .t-al {
     text-align: center;

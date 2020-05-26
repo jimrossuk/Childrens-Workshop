@@ -2811,12 +2811,14 @@ img {
 }
 
 .fp-box {
-  padding: 1em 0 2rem 0;
+  padding: 4em 1.5rem 2rem 0;
   text-align: center;
 }
 
 .flexy {
+  display: flex;
   margin: auto;
+  padding: 2rem;
 }
 
 .p-style {
