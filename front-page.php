@@ -32,9 +32,9 @@ if(get_field('alert_message'))
 <div class=" boarderline">
 
     <h1 class=" h1 t-al">Location</h1>
-    <div class="flexbox flexy">
+    <div class=" flexy">
         
-        <div class="fp-box">
+        <div class=" fp-box">
 
             <div class="mb-3 ">
                 <p class="mx-auto  ">Email:</p>
@@ -52,8 +52,8 @@ if(get_field('alert_message'))
             </div>
 
         </div>
-    <a class="justify-content-center mx-auto" href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
-    <img class="img-fluid container-sm btm-margin " style= max-width:90%; src = " <?php the_field('map'); ?> ">        </a>
+    <a class="justify-content-center mx-auto imjim" href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
+    <img class="img-fluid container-sm btm-margin " style= max-width:100%; src = " <?php the_field('map'); ?> ">        </a>
     </div>   
 
 </div>

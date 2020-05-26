@@ -2149,6 +2149,12 @@ a:visited .contactsize {
   font-size: 1.25rem;
 }
 
+.fp-box {
+  padding: 4em 1.5rem 2rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2299,9 +2305,6 @@ tweeners.
   do they need tweaking?
   */
   /* end .footer-links */
-  .contactsize {
-    font-size: 2rem;
-  }
 }
 @media only screen and (min-width: 608px) {
   .toggle-nav {
@@ -2589,6 +2592,14 @@ you can add resource intensive styles.
     font-size: 1.4rem;
     padding: 0 2rem;
   }
+
+  .flexy {
+    display: flex;
+  }
+
+  .imjim {
+    max-width: 100%;
+  }
 }
 /*********************
 DESKTOP
@@ -2811,14 +2822,13 @@ img {
 }
 
 .fp-box {
-  padding: 4em 1.5rem 2rem 0;
+  padding: 4em 1.5rem 2rem 2rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 
 .flexy {
-  display: flex;
   margin: auto;
-  padding: 2rem;
 }
 
 .p-style {
