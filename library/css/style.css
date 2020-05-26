@@ -1373,7 +1373,7 @@ select {
 }
 
 h1 {
-  color: blue;
+  color: #cd320f;
 }
 
 h2 {
@@ -1463,7 +1463,7 @@ LINK STYLES
 *********************/
 a,
 a:visited {
-  color: pink;
+  color: #cd320f;
   font-size: 1.1em;
   /* on hover */
   /******************************************************************
@@ -2761,7 +2761,7 @@ nav {
 }
 
 #logo a {
-  color: #6fc4d5;
+  color: #70b891;
   text-decoration: none;
 }
 
@@ -2774,7 +2774,7 @@ img {
 }
 
 .staff_name {
-  color: #6fc4d5;
+  color: #70b891;
   font-size: 2.3rem;
   margin: 0px;
   padding: 0.5rem;
@@ -2782,7 +2782,7 @@ img {
 
 .job_titles {
   padding: 0.3rem;
-  color: #6fc4d5;
+  color: #70b891;
   font-size: 1.8rem;
   margin: 0;
 }
@@ -2846,6 +2846,10 @@ img {
   text-align: center;
 }
 
+.boarderline {
+  border-top: purple 2px solid;
+}
+
 .intro {
   font-size: 1.7rem;
   text-align: center;
@@ -2868,7 +2872,7 @@ img {
   display: block;
   padding: 3rem;
   margin: 2rem;
-  border: 2px solid #6fc4d5;
+  border: 2px solid #70b891;
 }
 
 .b {
@@ -2903,7 +2907,7 @@ img {
 
 .wpcf7-submit {
   border-radius: 3px;
-  color: white;
+  color: #cd320f;
 }
 
 .upperC {
