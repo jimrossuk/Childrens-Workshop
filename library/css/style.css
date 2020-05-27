@@ -2928,6 +2928,15 @@ img {
   color: #cd320f;
 }
 
+.x {
+  border-top: 2px solid;
+}
+
+.xx {
+  color: green;
+  text-align: right;
+}
+
 .upperC {
   text-transform: uppercase;
   font-size: 2rem;

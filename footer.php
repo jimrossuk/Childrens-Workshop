@@ -21,7 +21,28 @@
 
 					<p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo( 'name' ); ?>.</p>
 
-					<a href="https://www.jimrossphoto.com" style="text-align: right"> Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>
+					
+						</div>
+
+						<div>
+
+						<?php 
+
+							$link = get_field('ofsted');
+							if( $link ): ?>
+							<a class="" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
+							<?php endif; ?>
+
+						<div>
+							<?php 
+							$link = get_field('charity_link');
+							if( $link ): ?>
+								<a class="xx" href="<?php echo esc_url( $link ); ?>">Charity information</a>
+							<?php endif; ?>
+
+						</div>		
+						
+						<a class=" xx" href="https://www.jimrossphoto.com" > Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>
 						</div>
 
 				</div>

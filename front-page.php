@@ -94,7 +94,7 @@ if(get_field('alert_message'))
     </div>  
             <!-- end of Flexbox -->
 
-        <?php 
+        <!-- <?php 
 $link = get_field('ofsted');
 if( $link ): ?>
     <a class="btn btn-color btn-lg btn-block  mb-1" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
@@ -105,10 +105,11 @@ if( $link ): ?>
     $link = get_field('charity_link');
     if( $link ): ?>
         <a class="btn btn-color btn-lg btn-block" href="<?php echo esc_url( $link ); ?>">Charity information</a>
-    <?php endif; ?>
+    <?php endif; ?> -->
 </div>
 
 <?php
+
 
 get_footer();
 
