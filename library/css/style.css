@@ -1458,6 +1458,10 @@ LAYOUT & GRID STYLES
   margin: 0 auto;
 }
 
+.wrapp {
+  width: 100%;
+}
+
 /*********************
 LINK STYLES
 *********************/
@@ -2155,6 +2159,11 @@ a:visited .contactsize {
   align-items: center;
 }
 
+.xx {
+  font-size: 0.93rem;
+  color: black;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2315,6 +2324,11 @@ tweeners.
 
   .t-al {
     margin-bottom: 2rem;
+  }
+
+  .xx {
+    font-size: inherit;
+    color: purple;
   }
 }
 @media only screen and (min-width: 608px) {
@@ -2928,13 +2942,17 @@ img {
   color: #cd320f;
 }
 
-.x {
-  border-top: 2px solid;
+.footer-style a {
+  color: black;
 }
 
 .xx {
   color: green;
-  text-align: right;
+  float: right;
+}
+
+.xxx {
+  color: salmon;
 }
 
 .upperC {

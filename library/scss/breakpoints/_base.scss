@@ -109,7 +109,10 @@ LAYOUT & GRID STYLES
 	width: 96%;
 	margin: 0 auto;
 }
-
+// for the footer
+.wrapp {
+	width: 100%;
+}
 /*********************
 LINK STYLES
 *********************/
@@ -1021,4 +1024,10 @@ FOOTER STYLES
 	padding: 0;
 	text-align: center;
 	align-items: center;
+}
+
+.xx {
+	font-size: 0.93rem;
+	// padding: none;
+	color: black;
 }
