@@ -2826,6 +2826,11 @@ img {
   margin: 0;
 }
 
+.x {
+  border-top: 2px solid #70b891;
+  margin: 2em;
+}
+
 .fp-graph {
   padding: 2.9rem;
   text-align: justify;
