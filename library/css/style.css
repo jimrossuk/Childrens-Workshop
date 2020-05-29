@@ -2942,6 +2942,10 @@ img {
   color: #cd320f;
 }
 
+.y {
+  border-top: 1px solid grey;
+}
+
 .footer-style a {
   color: black;
 }
