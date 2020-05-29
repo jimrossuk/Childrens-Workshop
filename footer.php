@@ -1,5 +1,5 @@
 		<footer class="footer" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
-		<div class="y">
+		<div class="footer-border">
 
 			<div class="footer-style">
 				

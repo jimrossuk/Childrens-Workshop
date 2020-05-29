@@ -2884,7 +2884,7 @@ img {
 
 .intro {
   font-size: 1.7rem;
-  text-align: center;
+  text-align: justify;
 }
 
 .pad {
@@ -2942,7 +2942,7 @@ img {
   color: #cd320f;
 }
 
-.y {
+.footer-border {
   border-top: 1px solid grey;
 }
 
