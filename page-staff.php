@@ -14,8 +14,8 @@ if( have_rows('all_staff') ):
 <div class="x">
 <?php
 ?>
-       <h1 class="staff_name ">  <?php the_sub_field('staff_member_name'); ?> </h1>
-       <h3 class= "job_titles ">   <?php the_sub_field('job_title'); ?>  
+       <h1 class="staff_name text-center ">  <?php the_sub_field('staff_member_name'); ?> </h1>
+       <h3 class= "job_titles text-center ">   <?php the_sub_field('job_title'); ?>  
     </h3>
     
     <div class="flex-container"> 
@@ -23,7 +23,7 @@ if( have_rows('all_staff') ):
         
         <img class= "flex-item rounded-circle" src= "<?php the_sub_field('staff_photo'); ?>" >
         
-        <p class="info-container "> <?php the_sub_field('profile');?> </p>
+        <p class="info-container text-justify "> <?php the_sub_field('profile');?> </p>
         
     </div> 
     <?php
