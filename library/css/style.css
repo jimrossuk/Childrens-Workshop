@@ -2917,8 +2917,14 @@ img {
   line-height: inherit;
 }
 
-.thing {
+.flex {
   display: flex;
+}
+
+.holiday-font {
+  color: red;
+  font-size: larger;
+  margin: 0;
 }
 
 .jimross {
@@ -2948,15 +2954,6 @@ img {
 
 .footer-style a {
   color: black;
-}
-
-.xx {
-  color: green;
-  float: right;
-}
-
-.xxx {
-  color: salmon;
 }
 
 .upperC {

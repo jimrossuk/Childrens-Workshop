@@ -31,7 +31,7 @@
 
 $link = get_field('ofsted' ,'options');
 if( $link ): ?>
-								<a class="footer-style xxx" href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
+								<a class="footer-style " href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
 								<?php endif; ?>
 								
 								<div>
@@ -41,7 +41,7 @@ if( $link ): ?>
 									<a class="footer-style" href="<?php echo esc_url( $link ); ?>">Charity information</a>
 									<?php endif; ?>
 									
-									<a  class="xx" style="color: red" href="https://www.jimrossphoto.com" > Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>
+									<a  class="float-right" style="color: red" href="https://www.jimrossphoto.com" > Proudly made by Jim Ross Studio <?php  the_field(''); ?>  </a>
 									
 								</div>		
 								

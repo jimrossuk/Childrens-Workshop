@@ -3,16 +3,18 @@
 get_header();
 
     ?>
-       <img src= " <?php the_field('holiday_photo') ; ?> ">
+       <img max-width:50% src= " <?php the_field('holiday_photo') ; ?> ">
        <h2 class="text-center"> <?php the_field('holiday_club_intro'); ?> </h2>
-        <h3 class="text-center ft-graph "> <?php the_field('holiday_club_content'); ?>  </h3>
+        <h3 class="text-justify ft-graph "> <?php the_field('holiday_club_content'); ?>  </h3>
         <div>
-            <p class="text-center">Start <?php the_field('hours_open'); ?>  </p>
-            <p class="text-center">Finish <?php the_field('hours_close'); ?>  </p>
+            <p class = "text-center holiday-font"> Start:</p>
+            <p class="text-center xxx"> <?php the_field('hours_open'); ?>  </p>
+            <p class = "text-center holiday-font">Finish:</p>
+            <p class="text-center xxx"> <?php the_field('hours_close'); ?>  </p>
         </div>
      <?php ?>
      
-    <div class="thing">
+    <div class="flex">
 
      
         <?php 
