@@ -2621,6 +2621,10 @@ you can add resource intensive styles.
   .flexy {
     display: flex;
   }
+
+  .contact-flex {
+    grid-template-columns: 50% 50%;
+  }
 }
 /*********************
 DESKTOP
@@ -2933,7 +2937,7 @@ img {
 }
 
 .contact-flex {
-  display: flex;
+  display: grid;
   justify-content: center;
 }
 
@@ -2953,9 +2957,8 @@ img {
   color: #cd320f;
 }
 
-.x {
-  background: blue;
-  padding-top: 2rem;
+.xy {
+  margin-top: 6.2rem;
 }
 
 .footer-border {

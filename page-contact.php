@@ -46,14 +46,14 @@
 
 							<?php endif; ?>
 
-								<div class= "x">
+								<div class= "xy">
 											<div class="mb-3  ">
 												<p class="mx-auto h3">Email:</p>
 												<a  class="h2" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
 											</div>
 											
 											<div class="mb-3">
-												<p class="mx-auto 32">Mobile:</p>
+												<p class="mx-auto h3">Mobile:</p>
 												<a class="h2"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
 											</div>
 											<div>
