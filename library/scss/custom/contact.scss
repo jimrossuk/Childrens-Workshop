@@ -1,6 +1,8 @@
 .contact-flex {
     display: grid;
-    justify-content: center;
+    // justify-content: center;
+    margin: 2rem;
+    // background: lightcoral;
 }
 
 .wpcf7 {
@@ -11,8 +13,6 @@
 .wpcf7 input[type="text"],
 .wpcf7 input[type="email"],
 .wpcf7 textarea {
-    // background-color: ;
-
     color: #000;
     width: 70%;
 }
@@ -24,10 +24,4 @@
     // background: ;
     border-radius: 3px;
     color: $highlight-red;
-}
-
-.xy {
-    // background: blue;
-
-    margin-top: 6.2rem;
 }
