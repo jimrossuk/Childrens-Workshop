@@ -1,4 +1,4 @@
-.jimross {
+.contact-flex {
     display: flex;
     justify-content: center;
 }
@@ -24,4 +24,9 @@
     // background: ;
     border-radius: 3px;
     color: $highlight-red;
+}
+
+.x {
+    background: blue;
+    padding-top: 2rem;
 }

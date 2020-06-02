@@ -162,7 +162,7 @@ jQuery(document).ready(function ($) {
   loadGravatars();
 
 
-  // hamburger jimross
+  // hamburger 
   jQuery(document).ready(function () {
     jQuery('.toggle-nav').click(function (e) {
       jQuery('.main-nav').slideToggle(1);

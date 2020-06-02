@@ -84,7 +84,7 @@
 						)); ?>
 
 					</nav>
-					<!-- Not sure of class for hamburger menu jimross -->
+					<!-- Not sure of class for hamburger menu  -->
 				
 					
 

@@ -8,7 +8,7 @@
 						<main id="main" class=" cf" role="main" itemscope 
 						
 						itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-								<div class="jimross">
+								
 
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 									
@@ -42,7 +42,7 @@
 												</div>
 											</div>
 										
-								</div>
+							
 
 								</header>
 
