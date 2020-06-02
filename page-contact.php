@@ -8,21 +8,24 @@
 						<main id="main" class=" cf" role="main" itemscope 
 						
 						itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+						<h1 class="upperC   text-center">
+										<?php the_title(); ?>
+										
+									</h1>
 								<div class="contact-flex">
 
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 									
 									<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> role="article">
 									
-									<header class="article-header">
-										
-										<h1 class="upperC   text-center">
-											<?php the_title(); ?>
-										</h1>
+									
+								
+											<header class=" article-header">
 										
 									</header>
 
 								<section class="entry-content cf">
+								
 									<?php the_content(); ?>
 								</section>
 							</article>

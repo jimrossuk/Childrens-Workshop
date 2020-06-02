@@ -426,5 +426,10 @@ mobile. Make sure to double check these!
 }
 
 .contact-flex {
-	grid-template-columns: 50% 50%;
+	grid-template-columns: 70% 30%;
+}
+.h3 a,
+.h2 {
+	// font-size: smaller;
+	margin-right: 1rem;
 }
