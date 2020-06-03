@@ -433,7 +433,16 @@ mobile. Make sure to double check these!
 	margin-right: 1.3rem;
 	font-size: 1.5rem;
 }
+.contact-flex {
+	grid-template-columns: 65% 45%;
+	padding: 0 2rem;
+}
 
 .xy {
-	margin-top: 2.3rem;
+	margin-top: 1.3rem;
+	padding: 0 2em;
+}
+
+label {
+	display: block;
 }
