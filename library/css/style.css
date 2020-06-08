@@ -2486,6 +2486,7 @@ you can add resource intensive styles.
     display: inline-block;
     position: relative;
     padding: 1.3%;
+    font-size: 1.2rem;
     /*
     plan your menus and drop-downs wisely.
     */
@@ -2523,6 +2524,7 @@ you can add resource intensive styles.
     display: block;
     width: 180px;
     border-bottom: 1px solid #ccc;
+    font-size: 4rem;
   }
   .nav li ul.sub-menu li:last-child a,
 .nav li ul.children li:last-child a {
@@ -2659,6 +2661,11 @@ you can add resource intensive styles.
   label {
     display: block;
   }
+
+  .nav.top-nav.cf, a .nav.top-nav.comment-respond {
+    display: flex;
+    justify-content: space-evenly;
+  }
 }
 /*********************
 DESKTOP
@@ -2683,7 +2690,6 @@ you can add resource intensive styles.
 
   .wpcf7 textarea {
     max-width: 55%;
-    background: red;
   }
 }
 /*********************

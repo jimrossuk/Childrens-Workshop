@@ -57,6 +57,7 @@ NAVIGATION STYLES
 		display: inline-block;
 		position: relative;
 		padding: 1.3%;
+		font-size: 1.2rem;
 		// // making mobile
 		// background: lime;
 		// nav is now centred!
@@ -98,6 +99,7 @@ NAVIGATION STYLES
 					display: block;
 					width: 180px;
 					border-bottom: 1px solid #ccc;
+					font-size: 4rem;
 
 					&:hover,
 					&:focus {
@@ -445,4 +447,9 @@ mobile. Make sure to double check these!
 
 label {
 	display: block;
+}
+
+.nav.top-nav.cf {
+	display: flex;
+	justify-content: space-evenly;
 }
