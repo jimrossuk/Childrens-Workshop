@@ -23,7 +23,7 @@
 
 									<p class="text-center "> <?php the_field('the_headline')  ?> </p>
 
-									<p class="text-center"> <?php the_field('the_message')  ?> </p>
+									<p class="text-justify"> <?php the_field('the_message')  ?> </p>
 
 
 									<?php 
