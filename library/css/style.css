@@ -754,13 +754,6 @@ them however you see fit.
 }
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-  .t-all {
-    float: left;
-    padding-right: 0.75em;
-    width: 100%;
-    padding-right: 0;
-  }
-
   .t-1of2 {
     float: left;
     padding-right: 0.75em;
@@ -2159,19 +2152,14 @@ a:visited .contactsize {
   align-items: center;
 }
 
-.xx {
-  font-size: 0.93rem;
-  color: black;
-}
-
 .h2,
 .h3 {
   font-size: 1.1em;
   padding: 5px;
 }
 
-.xy {
-  margin-top: 0;
+.wpcf7 textarea {
+  width: 100%;
 }
 
 /*********************
@@ -2334,11 +2322,6 @@ tweeners.
 
   .t-al {
     margin-bottom: 2rem;
-  }
-
-  .xx {
-    font-size: inherit;
-    color: purple;
   }
 
   .h3,
@@ -2639,7 +2622,7 @@ you can add resource intensive styles.
     display: flex;
   }
 
-  .contact-flex {
+  .contact-grid {
     grid-template-columns: 70% 30%;
   }
 
@@ -2648,14 +2631,9 @@ you can add resource intensive styles.
     font-size: 1.5rem;
   }
 
-  .contact-flex {
+  .contact-grid {
     grid-template-columns: 65% 45%;
     padding: 0 2rem;
-  }
-
-  .xy {
-    margin-top: 1.3rem;
-    padding: 0 2em;
   }
 
   label {
@@ -2875,7 +2853,7 @@ img {
   margin: 0;
 }
 
-.x {
+.staff-border {
   border-top: 2px solid #70b891;
   margin: 2em;
 }
@@ -2981,7 +2959,7 @@ img {
   margin: 0;
 }
 
-.contact-flex {
+.contact-grid {
   display: grid;
   margin: 2rem;
 }
@@ -2991,10 +2969,6 @@ img {
 .wpcf7 textarea {
   color: #000;
   width: 70%;
-}
-
-.wpcf7 textarea {
-  width: 100%;
 }
 
 .wpcf7-submit {
@@ -3010,7 +2984,7 @@ img {
   color: black;
 }
 
-.upperC {
+.uppercase {
   text-transform: uppercase;
   font-size: 2rem;
 }

@@ -11,7 +11,7 @@ if( have_rows('all_staff') ):
     // display a sub field value
     ?>
     
-<div class="x">
+<div class="staff-border">
 <?php
 ?>
        <h1 class="staff_name text-center ">  <?php the_sub_field('staff_member_name'); ?> </h1>

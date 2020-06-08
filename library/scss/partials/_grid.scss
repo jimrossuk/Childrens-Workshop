@@ -28,7 +28,6 @@ over your project's layout.
 @mixin grid-col {
   float: left;
   padding-right: 0.75em;
-
 }
 
 // the last column
@@ -37,7 +36,6 @@ over your project's layout.
   padding-right: 0 !important;
 }
 
-
 /*
 Mobile Grid Styles
 These are the widths for the mobile grid.
@@ -45,7 +43,6 @@ There are four types, but you can add or customize
 them however you see fit.
 */
 @media (max-width: 767px) {
-
   .m-all {
     @include grid-col;
     width: 100%;
@@ -76,18 +73,15 @@ them however you see fit.
     @include grid-col;
     width: 75%;
   }
-
 } // end mobile styles
-
 
 /* Portrait tablet to landscape */
 @media (min-width: 768px) and (max-width: 1029px) {
-
-  .t-all {
-    @include grid-col;
-    width: 100%;
-    padding-right: 0;
-  }
+  // .t-all {
+  //   @include grid-col;
+  //   width: 100%;
+  //   padding-right: 0;
+  // }
 
   .t-1of2 {
     @include grid-col;
@@ -133,13 +127,11 @@ them however you see fit.
     @include grid-col;
     width: 80%;
   }
-
 } // end tablet
 
 /* Landscape to small desktop */
 @media (min-width: 1030px) {
-
-  .d-all  {
+  .d-all {
     @include grid-col;
     width: 100%;
     padding-right: 0;
@@ -249,5 +241,4 @@ them however you see fit.
     @include grid-col;
     width: 8.33%;
   }
-
 } // end desktop styles

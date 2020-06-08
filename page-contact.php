@@ -8,10 +8,10 @@
 						<main id="main" class=" cf" role="main" itemscope 
 						
 						itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
-							<h1 class="upperC   text-center">
+							<h1 class="uppercase   text-center">
 									<?php the_title(); ?>						
 							</h1>
-								<div class="contact-flex">
+								<div class="contact-grid">
 
 									<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 									

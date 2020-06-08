@@ -427,7 +427,7 @@ mobile. Make sure to double check these!
 	display: flex;
 }
 
-.contact-flex {
+.contact-grid {
 	grid-template-columns: 70% 30%;
 }
 
@@ -435,15 +435,15 @@ mobile. Make sure to double check these!
 	margin-right: 1.3rem;
 	font-size: 1.5rem;
 }
-.contact-flex {
+.contact-grid {
 	grid-template-columns: 65% 45%;
 	padding: 0 2rem;
 }
 
-.xy {
-	margin-top: 1.3rem;
-	padding: 0 2em;
-}
+// .xy {
+// 	margin-top: 1.3rem;
+// 	padding: 0 2em;
+// }
 
 label {
 	display: block;
@@ -453,3 +453,7 @@ label {
 	display: flex;
 	justify-content: space-evenly;
 }
+
+// .wpcf7 textarea {
+// 	width: 70%;
+// }

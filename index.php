@@ -15,11 +15,11 @@
 
 								<header class="article-header">
 
-								<h1 class="upperC   text-center">
+								<h1 class="uppercase   text-center">
 									<?php the_title(); ?>
 								</h1>
 
-									<!-- <h1 class="h2 entry-title text-center "><a class=" upperC"href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1> -->
+									<!-- <h1 class="h2 entry-title text-center "><a class=" uppercase"href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1> -->
 
 									<p class="text-center "> <?php the_field('the_headline')  ?> </p>
 
