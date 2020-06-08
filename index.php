@@ -32,7 +32,7 @@
 										if( $images ): ?>
 											<ul>
 												<?php foreach( $images as $image ): ?>
-													<li class="xyz">
+													<li class="p-2">
 														<a href="<?= $image['url']; ?>">
 															<img src="<?= $image['sizes']['medium']; ?>" alt="<?=$image['alt']; ?>" />		
 																<!-- Notsure A Caption is needed 

@@ -11,15 +11,15 @@ if( have_rows('q_&_a') ):
     while ( have_rows('q_&_a') ) : the_row();
     ?> 
             <!-- <div class="col-sm-3"> -->
-                <div class="flexandcolor">
+                <div class=>
 
-                    <div class="a">
+                    <div class="faq-box">
                         
                         <div class=" ">
                             <!-- display a sub field value -->
                             
-                            <h2 class=" b    "> <?php the_sub_field('question'); ?> </h2>
-                            <h3 class="  c fp-graph  "> <?php the_sub_field('answer'); ?>  </h3>
+                            <h2 class=" text-center pb-3   "> <?php the_sub_field('question'); ?> </h2>
+                            <h3 class="   text-justify faq-font "> <?php the_sub_field('answer'); ?>  </h3>
                         </div>
                         
                     </div>

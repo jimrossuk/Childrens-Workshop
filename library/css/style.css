@@ -2162,6 +2162,17 @@ a:visited .contactsize {
   width: 100%;
 }
 
+.faq-box {
+  border-radius: 3px;
+  padding: 1rem;
+  border-bottom: 2px solid #70b891;
+}
+
+.faq-font {
+  line-height: 1.2em;
+  font-size: 0.99rem;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2327,6 +2338,18 @@ tweeners.
   .h3,
 .h2 {
     font-size: 1.6rem;
+  }
+
+  .faq-box {
+    border-radius: 3px;
+    display: block;
+    padding: 3rem;
+    margin: 2rem;
+    border: 2px solid #70b891;
+  }
+
+  .faq-font {
+    font-size: 1.7rem;
   }
 }
 @media only screen and (min-width: 608px) {
@@ -2860,7 +2883,6 @@ img {
 
 .fp-graph {
   padding: 2.9rem;
-  text-align: justify;
   margin: 0 auto;
 }
 
@@ -2925,28 +2947,6 @@ img {
 
 .t {
   font-size: 1.3rem;
-}
-
-.flexandcolor {
-  display: flex;
-}
-
-.a {
-  border-radius: 3px;
-  display: block;
-  padding: 3rem;
-  margin: 2rem;
-  border: 2px solid #70b891;
-}
-
-.b {
-  text-align: center;
-  line-height: 1rem;
-}
-
-.c {
-  padding: 2rem;
-  line-height: inherit;
 }
 
 .flex {

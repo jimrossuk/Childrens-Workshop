@@ -1044,3 +1044,16 @@ FOOTER STYLES
 .wpcf7 textarea {
 	width: 100%;
 }
+
+// for FAQ page
+.faq-box {
+	// background: $fun-yellow;
+	border-radius: 3px;
+	padding: 1rem;
+	border-bottom: 2px solid $fun-yellow;
+}
+
+.faq-font {
+	line-height: 1.2em;
+	font-size: 0.99rem;
+}

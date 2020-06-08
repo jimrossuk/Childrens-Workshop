@@ -200,3 +200,16 @@ do they need tweaking?
 .h2 {
 	font-size: 1.6rem;
 }
+
+.faq-box {
+	// background: $fun-yellow;
+	border-radius: 3px;
+	display: block;
+	padding: 3rem;
+	margin: 2rem;
+	border: 2px solid $fun-yellow;
+}
+
+.faq-font {
+	font-size: 1.7rem;
+}
