@@ -165,7 +165,7 @@ jQuery(document).ready(function ($) {
   // hamburger 
   jQuery(document).ready(function () {
     jQuery('.toggle-nav').click(function (e) {
-      jQuery('.main-nav').slideToggle(1);
+      jQuery('.main-nav').slideToggle(500);
 
       e.preventDefault();
     });

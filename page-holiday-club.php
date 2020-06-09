@@ -3,7 +3,7 @@
 get_header();
 
     ?>
-       <img max-width:50% src= " <?php the_field('holiday_photo') ; ?> ">
+       <img class="img-small" src= " <?php the_field('holiday_photo') ; ?> ">
        <h2 class="text-center"> <?php the_field('holiday_club_intro'); ?> </h2>
         <h3 class="text-justify ft-graph "> <?php the_field('holiday_club_content'); ?>  </h3>
         <div>
