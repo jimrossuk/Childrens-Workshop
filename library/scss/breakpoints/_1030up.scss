@@ -16,3 +16,13 @@ be seen on the Desktop.
 .wpcf7 textarea {
   max-width: 55%;
 }
+
+.flex-container {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-align-items: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

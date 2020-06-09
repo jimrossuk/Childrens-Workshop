@@ -2633,6 +2633,7 @@ you can add resource intensive styles.
 
   .flex-item {
     width: 30%;
+    margin-bottom: auto;
   }
 
   .info-container {
@@ -2691,6 +2692,16 @@ you can add resource intensive styles.
 
   .wpcf7 textarea {
     max-width: 55%;
+  }
+
+  .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
 /*********************
@@ -2853,10 +2864,6 @@ img {
   width: 100%;
   display: block;
   margin: 0 auto;
-}
-
-.img-small {
-  width: 50%;
 }
 
 .xyz {

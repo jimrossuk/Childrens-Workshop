@@ -21,7 +21,7 @@ if( have_rows('all_staff') ):
     <div class="flex-container"> 
         
         
-        <img class= "flex-item rounded-circle" src= "<?php the_sub_field('staff_photo'); ?>" >
+        <img class= "flex-item rounded-circle " src= "<?php the_sub_field('staff_photo'); ?>" >
         
         <p class="info-container text-justify "> <?php the_sub_field('profile');?> </p>
         
