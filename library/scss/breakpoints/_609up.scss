@@ -3,7 +3,8 @@
 }
 
 .nav.top-nav.cf {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .nav {

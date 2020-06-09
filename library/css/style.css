@@ -2358,7 +2358,8 @@ tweeners.
   }
 
   .nav.top-nav.cf, a .nav.top-nav.comment-respond {
-    display: block;
+    display: flex;
+    justify-content: space-evenly;
   }
 
   .nav {
