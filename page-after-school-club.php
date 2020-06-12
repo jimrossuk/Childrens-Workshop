@@ -15,6 +15,10 @@ get_header();
     <p class=" pad"> Annual Fee: £ <?php the_field('registration','options'); ?>   </p>
 </div>
 
+
+<!-- <p class="t pad"> <?php the_field('dates'); ?>  </p>
+<p class="t pad"> <?php the_field('date_picker'); ?>  </p> -->
+
 <?php
 
 get_footer();

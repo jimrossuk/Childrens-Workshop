@@ -51,6 +51,13 @@ if(get_field('alert_message'))
                 <a class=" contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
 
+            <div>
+                <p class="contactsize"> Address:
+                    <?php the_field('address', 'option'); ?>
+                </p>
+
+            </div>
+
         </div>
     <a class="justify-content-center mx-auto " href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
     <img class="img-fluid container-sm btm-margin " style= max-width:100%; src = " <?php the_field('map'); ?> ">        </a>
