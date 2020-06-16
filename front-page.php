@@ -51,10 +51,11 @@ if(get_field('alert_message'))
                 <a class=" contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
 
-            <div>
-                <p class="contactsize"> Address:
+            <div class="container pb-0 ">
+                <p class=""> Address:</p> 
+                <p class="">  TEST
                     <?php the_field('address', 'option'); ?>
-                </p>
+</p>
 
             </div>
 
