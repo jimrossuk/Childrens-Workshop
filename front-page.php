@@ -37,30 +37,33 @@ if(get_field('alert_message'))
         <div class=" fp-box">
 
             <div class="mb-3 ">
-                <p class="mx-auto  ">Email:</p>
+                <p class="mx-auto no-marg ">Email:</p>
                 <a  class=" contactsize" href="mailto:<?php the_field('email_address', 'option'); ?>" > <?php the_field('email_address', 'option'); ?></a> 
             </div>
 
             <div class="mb-3">
-                <p class="mx-auto   ">Mobile:</p>
+                <p class="mx-auto no-marg ">Mobile:</p>
                 <a class=" contactsize"  href="tel:<?php the_field('mobile_number', 'option'); ?>"> <?php the_field('mobile_number', 'option');  ?></a>
             </div>
 
-                <p class="   ">Landline:</p>
+                <p class="  no-marg ">Landline:</p>
                 <div class="btm-margin">
                 <a class=" contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
-            <p> Address</p>
-            <?php
-                $address = get_field('address', 'option');
-                    if( $address ): ?>
-                        <div class="123">
-                            <p>  <?php echo ( $address ['street']  ); ?>  </p>
-                            <p>  <?php echo ( $address ['city']  ); ?>  </p>
-                            <p>  <?php echo ( $address ['post_code']  ); ?>  </p>
-                        </div>    
-                    <?php endif; ?>
 
+            <div class="address top-marg">
+               
+                <?php
+                    $address = get_field('address', 'option');
+                    if( $address ): ?>
+                            <div class="">
+                                <p>  <?php echo ( $address ['street']  ); ?>  </p>
+                                <p>  <?php echo ( $address ['city']  ); ?>  </p>
+                                <p>  <?php echo ( $address ['post_code']  ); ?>  </p>
+                            </div>    
+                        <?php endif; ?>
+
+            </div>
 
         </div>
     <a class="justify-content-center mx-auto " href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">

@@ -180,7 +180,7 @@ do they need tweaking?
 	}
 } /* end .footer-links */
 .contactsize {
-	font-size: 2rem;
+	font-size: 1.6rem;
 }
 
 // takes away padding on contact info on Location section
@@ -210,5 +210,9 @@ do they need tweaking?
 	font-size: 1.7rem;
 }
 
-// STill working on staff pics and responsive
-// havving isures about 768px.. not flowing right
+.address {
+	padding-top: 1em;
+	line-height: 0.4em;
+	margin-top: 2rem;
+	// font-size: 0.9em;
+}

@@ -2188,6 +2188,12 @@ tweeners.
 .nav.top-nav.comment-respond {
     display: none;
   }
+
+  .address {
+    padding-top: 1em;
+    line-height: 0.4em;
+    margin-top: 2rem;
+  }
 }
 @media only screen and (min-width: 481px) {
   /******************************************************************
@@ -2324,7 +2330,7 @@ tweeners.
   */
   /* end .footer-links */
   .contactsize {
-    font-size: 2rem;
+    font-size: 1.6rem;
   }
 
   .fp-box {
@@ -2350,6 +2356,12 @@ tweeners.
 
   .faq-font {
     font-size: 1.7rem;
+  }
+
+  .address {
+    padding-top: 1em;
+    line-height: 0.4em;
+    margin-top: 2rem;
   }
 }
 @media only screen and (min-width: 608px) {
@@ -2669,6 +2681,23 @@ you can add resource intensive styles.
     display: flex;
     justify-content: space-evenly;
   }
+
+  .contactsize {
+    font-size: 1.5em;
+  }
+
+  .address {
+    padding-top: 0;
+    font-size: inherit;
+  }
+
+  .top-marg {
+    margin-top: 2rem;
+  }
+
+  .no-marg {
+    margin-bottom: 0;
+  }
 }
 /*********************
 DESKTOP
@@ -2703,6 +2732,12 @@ you can add resource intensive styles.
     -webkit-align-items: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+
+  .address {
+    margin-top: 3rem;
+    font-size: 1rem;
+    line-height: inherit;
   }
 }
 /*********************
