@@ -31,7 +31,7 @@
 
 $link = get_field('ofsted' ,'options');
 if( $link ): ?>
-								<a class="footer-style " href="<?php echo esc_url( $link ); ?>">Ofsted report</a>
+								<a class="footer-style " href="<?php echo esc_url( $link ); ?>">Ofsted: EY445158</a>
 								<?php endif; ?>
 								
 								<div>
