@@ -27,6 +27,7 @@ if( function_exists('acf_add_options_page') ) {
   acf_add_options_sub_page('Fees');
   acf_add_options_sub_page('Charity');
   acf_add_options_sub_page('Hours');
+  acf_add_options_sub_page('Header Logo');
  
   
 

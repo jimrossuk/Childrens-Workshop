@@ -2900,6 +2900,11 @@ nav {
   display: inline-block;
 }
 
+.head-pix {
+  background: red;
+  width: 30%;
+}
+
 img {
   width: 100%;
   display: block;
