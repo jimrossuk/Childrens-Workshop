@@ -2739,6 +2739,10 @@ you can add resource intensive styles.
     font-size: 1rem;
     line-height: inherit;
   }
+
+  .lh-contact {
+    line-height: 0.6em;
+  }
 }
 /*********************
 LARGE VIEWING SIZE

@@ -63,6 +63,19 @@
 																				<a class="h2"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
 																			</div>
 																		</div>
+																		<div class="address top-marg lh-contact">
+																			<h5> Address:</h5>
+																		<?php
+																			$address = get_field('address', 'option');
+																			if( $address ): ?>
+																					<div class="">
+																						<p>  <?php echo ( $address ['street']  ); ?>  </p>
+																						<p>  <?php echo ( $address ['city']  ); ?>  </p>
+																						<p>  <?php echo ( $address ['post_code']  ); ?>  </p>
+																					</div>    
+																				<?php endif; ?>
+
+																	</div>
 										</div>
 								</div>				
 						</main>
