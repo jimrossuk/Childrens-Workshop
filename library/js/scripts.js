@@ -173,3 +173,10 @@ jQuery(document).ready(function ($) {
   });
 
 }); /* end of as page load scripts */
+
+
+// Address line spliter
+//const jsdemos = "<?php the_field('address', 'option'); ?>";
+// const address_script = jsdemos.split(' ');
+
+// console.log(jsdemos[1]);

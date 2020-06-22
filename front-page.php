@@ -50,14 +50,17 @@ if(get_field('alert_message'))
                 <div class="btm-margin">
                 <a class=" contactsize"href="tel:<?php the_field('landline_number', 'option'); ?>"> <?php the_field('landline_number', 'option');  ?></a>
             </div>
+            <p> Address</p>
+            <?php
+                $address = get_field('address', 'option');
+                    if( $address ): ?>
+                        <div class="123">
+                            <p>  <?php echo ( $address ['street']  ); ?>  </p>
+                            <p>  <?php echo ( $address ['city']  ); ?>  </p>
+                            <p>  <?php echo ( $address ['post_code']  ); ?>  </p>
+                        </div>    
+                    <?php endif; ?>
 
-            <div class="container pb-0 ">
-                <p class=""> Address:</p> 
-                <p class="">  TEST
-                    <?php the_field('address', 'option'); ?>
-</p>
-
-            </div>
 
         </div>
     <a class="justify-content-center mx-auto " href="https://www.google.com/maps/place/Totterdown+Children's+Community+Workshop/@51.4399464,-2.5764452,16z/data=!4m5!3m4!1s0x0:0xbe48b80e98e3d84c!8m2!3d51.4404747!4d-2.5740419">
