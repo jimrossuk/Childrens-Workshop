@@ -2173,6 +2173,14 @@ a:visited .contactsize {
   font-size: 0.99rem;
 }
 
+#logo {
+  display: none;
+}
+
+.YESSS {
+  width: 50%;
+}
+
 /*********************
 LARGER MOBILE DEVICES
 This is for devices like the Galaxy Note or something that's
@@ -2362,6 +2370,16 @@ tweeners.
     padding-top: 1em;
     line-height: 0.4em;
     margin-top: 2rem;
+  }
+
+  #NOOOO {
+    display: initial;
+  }
+
+  #YESSS {
+    display: none;
+    background: blue;
+    width: 10%;
   }
 }
 @media only screen and (min-width: 608px) {
@@ -2698,6 +2716,15 @@ you can add resource intensive styles.
   .no-marg {
     margin-bottom: 0;
   }
+
+  #logo {
+    display: initial;
+  }
+
+  .YESSS {
+    display: none;
+    width: 50%;
+  }
 }
 /*********************
 DESKTOP
@@ -2901,7 +2928,6 @@ nav {
 }
 
 .head-pix {
-  background: red;
   width: 30%;
 }
 

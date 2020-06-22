@@ -66,7 +66,9 @@
 
 					<p id="logo" class="h1 nohyphen" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?>  </a></p>
 
-					<img class="head-pix" src= " <?php the_field('logo', 'option') ; ?> ">
+					<img id="YESSS" class="h1 nohyphen" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php ('name'); ?> <img class="YESSS" src= " <?php the_field('logo', 'option') ; ?> "> </a>
+
+					<!-- <img class="head-pix" src= " <?php the_field('logo', 'option') ; ?> "> -->
 
 					<?php // if you'd like to use the site description you can un-comment it below ?>
 					<?php // bloginfo('description'); ?>

@@ -41,3 +41,8 @@
 			</div>
 
 <?php get_footer(); ?>
+
+
+
+<!--  Test for -->
+<!-- <img id="logo" class="h1 nohyphen" itemscope itemtype="http://schema.org/Organization"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php ('name'); ?> <img class="head-pix" src= " <?php the_field('logo', 'option') ; ?> "> </a> -->
