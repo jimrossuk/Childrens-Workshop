@@ -2967,13 +2967,9 @@ img {
   margin: 2em;
 }
 
-.fp-graph {
-  padding: 2.9rem;
-  margin: 0 auto;
-}
-
 .fst-graph {
   font-size: 1.3rem;
+  text-align: justify;
 }
 
 .ft-page {

@@ -21,12 +21,12 @@ if(get_field('alert_message'))
     <!-- <h1 class="h1 minus-h1"> <?php the_field('big_alert'); ?>   </h1> -->
 </div>
 <img class="img-fluid img" src= " <?php the_field('main_image') ; ?> ">
-    <div class="fp-graph">
-        <p class="fst-graph">  <?php  the_field('front_page_into1'); ?>  </p>
-        <p>  <?php  the_field('front_page_info2'); ?>  </p>
-        <p>  <?php  the_field('front_page_info3'); ?>  </p>
-        <h2>  <?php  the_field('front_page_info4'); ?>  </h2>
-        <p>  <?php  the_field('front_page_info5'); ?>  </p>
+    <div class="p-5">
+        <p class="fst-graph ">  <?php  the_field('front_page_into1'); ?>  </p>
+        <p class="fst-graph">  <?php  the_field('front_page_info2'); ?>  </p>
+        <p class="fst-graph">  <?php  the_field('front_page_info3'); ?>  </p>
+        <h2 class="fst-graph">  <?php  the_field('front_page_info4'); ?>  </h2>
+        <p class="fst-graph">  <?php  the_field('front_page_info5'); ?>  </p>
     </div>
 
 <div class=" boarderline">
@@ -75,12 +75,12 @@ if(get_field('alert_message'))
 
     <div class="flexbox container mb-2">
             <h1 class="h1 t-al">Clubs</h1>
-            <div class="row flexy block">
-                <div class="col fp-graph">
+            <div class="flexy block">
+                <div class="col fp-graph ">
 
-                    <h2 class="">After School </h2>
+                    <h2 class="text-center">After School </h2>
                     
-                    <p > <?php the_field('after_school_description'); ?> </p>
+                    <p class="fst-graph mr-4"> <?php the_field('after_school_description'); ?> </p>
                     <p>Daily Fee <?php the_field('after_school_daily_fee' , 'option'); ?> </p>
                     <p> Start time: <?php the_field('start_for_ASC','option'); ?> </p>
                     <p>Finish time: <?php the_field('finish_for_ASC','option'); ?> </p>
@@ -88,8 +88,8 @@ if(get_field('alert_message'))
                 
                 <div class="col fp-graph">
 
-                    <h2>Holiday </h2>
-                    <p>  <?php the_field('holiday_club_description'); ?> </p>
+                    <h2 class="text-center">Holiday </h2>
+                    <p class="fst-graph">  <?php the_field('holiday_club_description'); ?> </p>
                     <p> Start time: <?php the_field('start_for_HC','option'); ?> </p>
                     <p> Finish time: <?php the_field('finish_for_HC','option'); ?> </p>
                     <p class=""> £<?php the_field('holiday_club_daily_fee','options'); ?>   Fee per Child </p>
